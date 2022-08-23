@@ -3,9 +3,9 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    color: #10E6CD; 
+    color: #10E6CD;
     background-color: #262626;}
- 
+
 /* Navigation */
  .navigation{
     width: 100%;
@@ -24,7 +24,7 @@ body{
 h2{font-weight: 800;
     font-size: 30px;
     line-height: 37px;
-   
+
     align-items: center;
     color: #8AF6E9;
     }
@@ -40,27 +40,27 @@ h2{font-weight: 800;
     width: 400px;}
 
  .text.car.description
-    {float: right; 
+    {float: right;
     width: 50%;
     height: 250px;}
 
 
 .stadt.auto{float: left;}
-  
+
   /* Auswählen */
 .button.orange{float:right;
     width: 100px;
     height: 30px;
     background: #EF5C21;
     box-shadow: 0px 4px 4px 7px rgba(0, 0, 0, 0.5);
-    
+
     font-weight: 800;
     font-size: 25px;
     line-height: 30px;
     display: flex;
     align-items: center;
     color: #FFFFFF;}
-   
+
 /* hinweis */
 .hinweis{
 width: 400px;
@@ -76,3 +76,21 @@ color: #262626;
 
 background: #FFFFFF;
 box-shadow: 0px 7px 4px 7px rgba(0, 0, 0, 0.5);}
+
+/* Dynamisches Element: Festes Hintergrundbild scrollender Text */
+body, html {
+  height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('img_parallax.jpg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
