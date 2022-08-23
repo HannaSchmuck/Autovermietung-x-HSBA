@@ -41,7 +41,8 @@ a.logo{
     font-size: 45px;
     line-height: 57px;
     text-align:  center;
-    vertical-align: middle; 
+    vertical-align: middle;
+    line-height: 40px;
     }
 
 /*make links tourquise when hovering*/
