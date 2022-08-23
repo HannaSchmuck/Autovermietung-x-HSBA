@@ -24,12 +24,13 @@ body{
 /* links in der Navbar --- Links werden als Klasse angeprochen, damit der Link hinter dem Logo sein eigenes Design haben kann  */
 a.normal {
   float: left;
-  font-size: 16px;
+  font-size: 18px;
   display: block;
   color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  line-height: 22px;
 }
 /* Hier wird das Design für das Logo, was auch als Link fungiert, definiert*/
 a.logo{
@@ -42,7 +43,7 @@ a.logo{
     line-height: 57px;
     text-align:  center;
     vertical-align: middle;
-    line-height: 40px;
+    line-height: 57px;
     }
 
 /*make links tourquise when hovering*/
