@@ -6,16 +6,11 @@ body{
     color: #10E6CD;
     background-color: #262626;}
 
-<<<<<<< HEAD
-/* Navigation */
- .navigation{
-=======
 /* Style the navbar */
 #navigation {
   overflow: hidden;
   background-color: #000000;
     font-family: "Montserrat", sans-serif;
->>>>>>> 1688cf50110806bdcce7e8fe37eaec3593e00a5f
     width: 100%;
     height: 45px;
 }
