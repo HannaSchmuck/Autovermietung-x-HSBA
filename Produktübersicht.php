@@ -3,38 +3,25 @@
 <html>
 
 <head>
-<style>
-    .car {width: 28%; float: left; border: 1px solid black; height: 150px; margin: 1% 1% 2% 2%; padding: 10px 10px 10px 10px}  
-
-
-
-/* Style the navbar */
-.navbar {
-  overflow: hidden;
-  background-color: #000000;
-    width: 100%;
-}
-    
-
-/* Links inside the navbar */
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-</style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body>
-    <div class="navbar">
-        <a href="#Logo"> Logo-Platzhalter</a>
-        <a href="#Locations"> Locations</a>
-        <a href="#rent"> Rent</a>
-        <a href="#einloggen"> Einloggen</a>
+    <div id ="navigation">
+        <a href="#Logo" class="logo"> carbon</a>
+        
+        <div class="navigation_links">
+            <a href="#Locations" class="normal"> Locations</a>
+            <a href="#rent" class="normal"> Rent</a>
+            <a href="#einloggen" class="normal"> Einloggen</a>
+        </div>
+        
     </div>
          
 <br>
@@ -89,7 +76,7 @@
     <script>
 window.onscroll = function() {myFunction()};
 
-var navbar = document.getElementById("navbar");
+var navbar = document.getElementById("navigation");
 var sticky = navbar.offsetTop;
 
 function myFunction() {

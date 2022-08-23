@@ -3,234 +3,34 @@
 <html>
 
 <head>
-<style>
-    .car {width: 28%; float: left; border: 1px solid black; height: 150px; margin: 1% 1% 2% 2%; padding: 10px 10px 10px 10px}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
 
-
-
-/* Style the navbar */
-#navbar {
-  overflow: hidden;
-  background-color: #3C3C3C;
-    font-family: Arial;
-    width: 100%;
-}
-
-/* links inside the Navbar */
-#navbar a {
-  float: right;
-  font-size: 16px;
-  display: block;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 60px;
-}
-
-
-/* The dropdown container */
-.dropdown {
-  float: right;
-  overflow: hidden;
-}
-
-/* Dropdown button */
-.dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
-}
-
-/* Make links tourquise when hovering */
-.navbar a:hover, .dropdown:hover .dropbtn {
-  color:#10E6CD;
-}
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  width: 100%;
-  left: 0;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Mega Menu header, if needed */
-.dropdown-content .header {
-  background: #3C3C3C;
-  padding: 16px;
-  color: white;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* Create 1 column  that floats right */
-.column {
-  float: right;
-  width: 80%;
-  padding: 10px;
-  background-color: #7F7F7F;
-  height: 250px;
-}
-
-/* Style links inside the columns */
-.column a {
-  float: none;
-  color: black;
-  padding: 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-/* Add a background color on hover */
-.column a:hover {
-  background-color: #ddd;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-</style>
 </head>
 
 <body>
-    <div id ="navbar">
-        <a href="#"> Einloggen</a>
-        <div class="dropdown">
-            <button class="dropbtn">Rent
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <div class="header">
-                <h2>Rent</h2>
-              </div>
-                <div class="row">
-                    <div class="column">
-                        <h3>Category 1</h3>
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                </div>
-            </div>
+  <div id ="navigation">
+        <a href="#Logo" class="logo"> carbon</a>
+        
+        <div class="navigation_links">
+            <a href="#Locations" class="normal"> Locations</a>
+            <a href="#rent" class="normal"> Rent</a>
+            <a href="#einloggen" class="normal"> Einloggen</a>
         </div>
-
-          <div class="dropdown">
-            <button class="dropbtn">Locations
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <div class="header">
-                <h2>Locations</h2>
-              </div>
-              <div class="row">
-                <div class="column">
-                  <h3>Category 1</h3>
-                  <a  style="float: none" href="#">Link 1</a>
-                  <a    style="float: none" href="#">Link 2</a>
-                  <a  style="float: none"href="#">Link 3</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        <div class="dropdown">
-            <button class="dropbtn">Cars
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <div class="header">
-                <h2>Cars</h2>
-              </div>
-                <div class="row">
-                    <div class="column">
-                        <h3>Category 1</h3>
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
     </div>
 <br>
-    <div class="Filter" style="border: 1px solid #10E6CD; height: 500px;">
-        Hier werden die Filter eingefügt
 
-        <div >
-            Filter oben links
-        </div>
-    </div>
-<br>
-    <div class="content" style="border: 1px solid #10E6CD; height: 700px;padding: 15px 15px 15px 15px">
-        <br>
-        <div class="content_2" >
-            <div  class="car" > Auto 1
-            </div>
-
-            <div  class="car" > Auto 2
-            </div>
-
-            <div  class="car" > Auto 3
-            </div>
-
-        </div>
-        <div class="content_2">
-            <div  class="car" > Auto 4
-            </div>
-
-            <div  class="car" > Auto 5
-            </div>
-
-             <div  class="car" > Auto 6
-            </div>
-        </div>
-        <div class="content_2">
-            <div  class="car" > Auto 7
-            </div>
-
-            <div  class="car" > Auto 8
-            </div>
-
-             <div  class="car" > Auto 9
-            </div>
-        </div>
-    </div>
-
-<br>
-    <div class="footer" style="border: 1px solid #10E6CD">
-        FOOTER
-    </div>
-
-    <script>
+   
+<script>
 window.onscroll = function() {myFunction()};
 
-var navbar = document.getElementById("navbar");
+var navbar = document.getElementById("navigation");
 var sticky = navbar.offsetTop;
 
 function myFunction() {
@@ -241,8 +41,9 @@ function myFunction() {
   }
 }
 </script>
-
-
+    
+    
 </body>
 
 </html>
+

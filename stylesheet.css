@@ -6,11 +6,78 @@ body{
     color: #10E6CD;
     background-color: #262626;}
 
+<<<<<<< HEAD
 /* Navigation */
  .navigation{
+=======
+/* Style the navbar */
+#navigation {
+  overflow: hidden;
+  background-color: #000000;
+    font-family: "Montserrat", sans-serif;
+>>>>>>> 1688cf50110806bdcce7e8fe37eaec3593e00a5f
     width: 100%;
-    height: 56px;
-    background: #000000;}
+    height: 45px;
+}
+
+/*Align the div for the Links to the right side*/
+.navigation_links {
+    width: auto;
+    float: right;
+}
+    
+/* links in der Navbar --- Links werden als Klasse angeprochen, damit der Link hinter dem Logo sein eigenes Design haben kann  */
+a.normal {
+  float: left;
+  font-size: 16px;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Hier wird das Design für das Logo, was auch als Link fungiert, definiert*/
+a.logo{
+    font-family: 'Racing Sans One', cursive;
+    color: #10E6CD;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 57px;
+    text-align:  center;
+    vertical-align: middle; 
+    }
+
+/*make links tourquise when hovering*/
+#navigation a:hover {
+    color: #10E6CD
+    }
+   
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/*Die Registerkarten*/
+.car {
+    width: 278px;
+    height: 303px;
+    background-color:#b3b3b3;
+    border-radius: 16px;
+    box-shadow: 0px 10px 5px 5px rgba(0, 0, 0, 0.25);
+    float: left; 
+    height: 150px; 
+    margin: 1% 1% 2% 2%; 
+    padding: 10px 10px 10px 10px}  
+
 
 .logo{
     font-family: 'Racing Sans One', cursive;}
