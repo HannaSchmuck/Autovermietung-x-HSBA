@@ -9,51 +9,126 @@
 
 <body>
 
-<div class="navigation">
+<!-- Background image with small filter on top -->
+  <div class="parallax_1">
+
+    <!-- Navigationsleiste -->
+    <div id ="navigation">
+          <a href="#Logo" class="logo"> carbon</a>
+
+          <div class="navigation_links">
+              <a href="#Locations" class="normal"> Locations</a>
+              <a href="#rent" class="normal"> Rent</a>
+              <a href="#einloggen" class="normal"> Einloggen</a>
+          </div>
+
+      </div>
+    <br>
+
+
+    <script>
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("navigation");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+    }
+    </script>
+
+    <!-- kleiner Filter -->
+    <div class="filter_klein">
+
+      <!-- Headline 1 -->
+        <div style="position: absolute; left: 49px; top: 20px; font-family: 'Montserrat'; font-style, normal; font-weight: 400; font-size: 12px; line-height: 15px; display: flex; align-items: center; color: #FFFFFF;">
+          Eine Fahrt mit </div>
+          <div style="position: absolute; left: 139px; top: 16px; font-family: 'Racing Sans One', cursive; font-weight: 400; font-size: 17px; line-height: 21px; display: flex; align-items: center; color: #FFFFFF;">
+            carbon </div>
+
+      <!-- Headline 2 -->
+        <div style="position: absolute; left: 49px; top: 45px; font-family: 'Montserrat', normal; font-weight: 800; font-size: 40px; line-height: 54px; display: flex; align-items: center; color: #FFFFFF;">
+          Mit einem Klick zu Hause. </div>
+
+      <!-- Filter Ort -->
+        <div style="position: absolute; left: 51.62px; top: 173px; font-family: 'Montserrat', normal; font-weight: 400; font-size: 12px; line-height: 15px; display: flex; align-items: center; color: #FFFFFF;">
+            ORT </div>
+
+            <div class="filterbox_Ort" >
+              <div style="position: absolute; left: 49px; top: 10px; font-family: 'Montserrat'; font-style, normal; font-weight: 400; font-size: 12px; line-height: 15px; display: flex; align-items: center; justify-content: center; color: #FFFFFF;">
+                Wo willst Du dein Auto abholen? </div>
+            </div>
+
+      <!-- Filter Datum -->
+
+        <div style="position: absolute; left: 51.62px; top: 250.46px; font-family: 'Montserrat', normal; font-weight: 400; font-size: 12px; line-height: 15px; display: flex; align-items: center; color: #FFFFFF;">
+          VON </div>
+          <div class="filterbox_Datum" >
+          <div style="position: absolute; left: 49px; top: 10px; font-family: 'Montserrat'; font-style, normal; font-weight: 400; font-size: 12px; line-height: 15px; display: flex; align-items: center; justify-content: center; color: #FFFFFF;">
+          Datum </div>
+          </div>
+        <div style="position: absolute; left: 215px; top: 250.46px; font-family: 'Montserrat', normal; font-weight: 400; font-size: 12px; line-height: 15px; display: flex; align-items: center; color: #FFFFFF;">
+          BIS </div>
+          <div class="Filterbox_Datum" style="left: 215px">
+          <div style="position: absolute; left: 49px; top: 10px; font-family: 'Montserrat'; font-style, normal; font-weight: 400; font-size: 12px; line-height: 15px; display: flex; align-items: center; justify-content: center; color: #FFFFFF;">
+          Datum </div>
+          </div>
+
+      <!-- Button "Auf geht's!" -->
+
+        <div class="button_aufgehts">
+      <div style="position: absolute; width: 90px; height: 20px; left: 16px; top: 7px;
+                font-family: 'Montserrat'; font-style: normal; font-weight: 800; font-size: 16px; line-height: 20px;display: flex;
+                align-items: center; color: #FFFFFF">
+                Auf geht's </div>
+      </div>
+
   </div>
-<div>
-  <div class="parallax"></div>
 
-<div style="height:1000px;background-color:red;font-size:36px">
-Scroll Up and Down this page to see the parallax scrolling effect.
-This div is just here to enable scrolling.
-Tip: Try to remove the background-attachment property to remove the scrolling effect.
-</div>
+    </div>
 
-<div class="parallax"></div>
+ <div class="Contentbereich1_Homepage">
+ <div>
+   <img src="images/Deutschlandkarte.png" alt="Deutschlandkarte" style="position: absolute; left:216px; right:646px; height:560px; weight: 420px;">
  </div>
-
-
-
-<div style="width:100%; height:500px; background-color: #f8f9fa;">
-
-<div style="width:100%; height:250px">
-
-<div class="textboxleft" style="width:40%; height:220px;float:left;">
-	<h3> <a class="one" href="https://www.hsba.de/hsba/unsere-hochschule/departments/finance-accounting">Finance & Accounting</a></h3>
-	<p><a class="two" href="https://www.hsba.de/hsba/unsere-hochschule/departments/finance-accounting">Das Department koordiniert Aufgaben in Finance, Accounting, Corporate Governance, Wirtschaftsprüfung und Betriebswirtschaftliche Steuerlehre.</a></p>
+  <!-- Headline -->
+   <div style="position: absolute; left: 980px; top: 56px; font-family: 'Racing Sans One', cursive; font-weight: 400; font-size: 40px; line-height: 50.4px; display: flex; align-items: center; color: #10E6CD;">
+     carbon </div>
+     <div style="position: absolute; left: 1120px; top: 67px; font-family: 'Montserrat', normal; font-weight: 800; font-size: 30px; line-height: 36.57px; display: flex; align-items: center; color: #10E6CD;">
+       PREMIUM MIETWAGEN </div>
+       <div style="position: absolute; left: 980px; top: 107px; font-family: 'Montserrat', normal; font-weight: 800; font-size: 30px; line-height: 36.57px; display: flex; align-items: center; color: #10E6CD;">
+         DEUTSCHLANDWEIT VERFÜGBAR </div>
+      <!-- Text -->
+    <div style="position: absolute; height: 110px; width: 516px; left: 980px; top: 157px; font-family: 'Montserrat', normal; font-weight: 400; font-size: 16px; line-height: 20px; display: flex; align-items: center; text-align: justify; color: #FFFFFF;">
+      Bei uns kannst in 14 Standorten die unterschiedlichsten Modelle auswählen. Jeder Standort verfügt über mehr als 15 Autos, von welchen du deine liebste Wahl dort buchst, abholst und zu guter letzt im gleichen Standort wieder abgibst.
+      Gemietet wird für mindestens einen Tag. </div>
 </div>
 
-<div class="textboxright" style="width:40%; height:220px;float:right;">
-	<h3><a class="one" href="https://www.hsba.de/hsba/unsere-hochschule/departments/finance-accounting">Marketing Transformation</a></h3>
-	<p><a class="two" href="https://www.hsba.de/hsba/unsere-hochschule/departments/finance-accounting">Das Department koordiniert Aufgaben in Finance, Accounting, Corporate Governance, Wirtschaftsprüfung und Betriebswirtschaftliche Steuerlehre.</a></p>
-</div>
+<div class="parallax_2"></div>
 
-</div>
+  <div class="Contentbereich2_Homepage">
+    <div style="position: absolute; left: 49px; top: 56px; font-family: 'Montserrat', normal; font-weight: 800; font-size: 30px; line-height: 37px; display: flex; align-items: center; color: #FFFFFF;">
+      Wie ist Deine Stimmung heute? </div>
+    <div class="Teaserkreis">
+    </div>
+    <div class="Teaserkreis" style="left:25%">
+    </div>
+    <div class="Teaserkreis" style="left:40%">
+    </div>
+    <div class="Teaserkreis" style="left:55%">
+    </div>
+    <div class="Teaserkreis" style="left:70%">
+    </div>
+    <div class="Teaserkreis" style="left:85%">
+    </div>
+  </div>
 
-<div style="width:100%; height: 250px;">
+<div class="parallax_3"></div>
 
-<div class="textboxleft" style="width:40%; height:220px;float:left;">
-<h3><a class="one" href="https://www.hsba.de/hsba/unsere-hochschule/departments/finance-accounting">Strategy & Leadership</a></h3>
-<p><a class="two" href="https://www.hsba.de/hsba/unsere-hochschule/departments/finance-accounting">Das Department koordiniert Aufgaben in Finance, Accounting, Corporate Governance, Wirtschaftsprüfung und Betriebswirtschaftliche Steuerlehre.</a></p>
-</div>
-
-<div class="textboxright" style="width:40%; height:220px;float:right;">
-
-<h3><a class="one" href="https://www.hsba.de/hsba/unsere-hochschule/departments/finance-accounting">Technology & Markets</a></h3>
-<p><a class="two" href="https://www.hsba.de/hsba/unsere-hochschule/departments/finance-accounting">Das Department koordiniert Aufgaben in Finance, Accounting, Corporate Governance, Wirtschaftsprüfung und Betriebswirtschaftliche Steuerlehre.</a></p>
-
-</div>
 
 </div>
 <div style="width:100%; height:300px; background-color:grey;">

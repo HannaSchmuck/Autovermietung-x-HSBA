@@ -20,7 +20,7 @@ body{
     width: auto;
     float: right;
 }
-    
+
 /* links in der Navbar --- Links werden als Klasse angeprochen, damit der Link hinter dem Logo sein eigenes Design haben kann  */
 a.normal {
   float: left;
@@ -51,7 +51,7 @@ a.logo{
 #navigation a:hover {
     color: #10E6CD
     }
-   
+
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
@@ -71,10 +71,10 @@ a.logo{
     background-color:#b3b3b3;
     border-radius: 16px;
     box-shadow: 0px 10px 5px 5px rgba(0, 0, 0, 0.25);
-    float: left; 
-    height: 150px; 
-    margin: 1% 1% 2% 2%; 
-    padding: 10px 10px 10px 10px}  
+    float: left;
+    height: 150px;
+    margin: 1% 1% 2% 2%;
+    padding: 10px 10px 10px 10px}
 
 
 .logo{
@@ -142,20 +142,130 @@ color: #262626;
 background: #FFFFFF;
 box-shadow: 0px 7px 4px 7px rgba(0, 0, 0, 0.5);}
 
+/* Style für die Homepage */
+
 /* Dynamisches Element: Festes Hintergrundbild scrollender Text */
 body, html {
-  height: 100%;
+  height: 5000px;
 }
 
-.parallax {
+.parallax_1 {
   /* The image used */
-  background-image: url('img_parallax.jpg');
+  background-image: url('images/background-home.jpg');
 
   /* Full height */
-  height: 100%;
+  height: 602px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.parallax_2 {
+    /* The image used */
+    background-image: url('images/background-home.jpg');
+
+    /* Full height */
+    height: 7.5%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax_3 {
+      /* The image used */
+      background-image: url('images/background-home.jpg');
+
+      /* Full height */
+      height: 25%;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+  /* Filter_klein */
+
+.filter_klein {
+  position: absolute;
+  width: 430px;
+  height: 395px;
+  left: 6%;
+  top: 19.7%;
+  background: #262626;
+  border-radius: 16px;
+ }
+
+/* Filterbox_Ort */
+
+ .filterbox_Ort {
+   position: absolute;
+     width: 308px;
+     height: 35.57px;
+     left: 49px;
+     top: 192.93px;
+     background-color: #555555;
+     border-style: black, solid, 2px;
+     border-radius: 2px;}
+
+/* Filterbox_Datum*/
+
+.filterbox_Datum {
+        position: absolute;
+          width: 142px;
+          height: 35.57px;
+          left: 49px;
+          top: 270.39px;
+          background-color: #555555;
+          border-style: black, solid, 2px;
+          border-radius: 2px;}
+
+/* Auf geht's button */
+.button_aufgehts {
+          position: absolute;
+          width: 121px;
+          height: 35px;
+          left: 236px;
+          top: 335px;
+          background: #EF5C21;
+          box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.5);
+          border-radius: 3px;}
+
+/* Contentbereich1_Homepage*/
+.Contentbereich1_Homepage {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  top: 658px;
+  background-color: #3C3C3C;
+}
+
+/* Contentbereich2_Homepage*/
+.Contentbereich2_Homepage {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+  top: 1358px;
+  background-color: #3C3C3C;
+}
+
+/* Teaser Kreise */
+
+.Teaserkreis {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 10%;
+  top: 220px;
+  border: 1px;
+  border-color: #FFFFFF;
+  border-style: solid;
+  border-radius: 50%;
+}
