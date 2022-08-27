@@ -88,11 +88,25 @@ a.logo{
         
     .footer_text {
     text-align: left; 
-    color: #ffffff;
     font-family: "Montserrat", sans-serif;
     font-weight: 400; 
     font-size: 16px;
     margin: 2px;
+    color: #ffffff;
+    }
+    
+    .footer_links {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-weight: 400; 
+    font-size: 16px;
+    margin: 2px;
+    text-align: left;
+    }
+
+    a.footer_links:hover {
+    color: #10E6CD
     }
         
     a.logo_footer{
