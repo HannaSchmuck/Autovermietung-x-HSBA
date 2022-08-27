@@ -115,6 +115,10 @@ a.logo{
     display: flex; 
     align-items: center;
     }
+    
+    a.footer_links:{
+    text-decoration: none;
+    }
 
 /*Die Registerkarten*/
 .car {
