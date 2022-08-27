@@ -64,6 +64,11 @@ a.logo{
   padding-top: 60px;
 }
 
+/*Das Bild, was als anmeldebutton dient, wird hier designt*/
+.anmelden_img {
+    height: 25px;
+}
+
 /*Der Footer wird hier designt*/
  .footer {
     width: 100%; 
