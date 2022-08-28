@@ -5,41 +5,41 @@
   <link rel="stylesheet" href="stylesheet.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- Navigationsleiste -->
+  <div id ="navigation">
+        <a href="#Logo" class="logo"> carbon</a>
+
+        <div class="navigation_links">
+            <a href="#Locations" class="normal"> Locations</a>
+            <a href="#rent" class="normal"> Rent</a>
+            <a href="#einloggen" class="normal"> Einloggen</a>
+        </div>
+
+    </div>
+  <br>
+
+
+  <script>
+  window.onscroll = function() {myFunction()};
+
+  var navbar = document.getElementById("navigation");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+  }
+  </script>
+
 </head>
 
 <body>
 
 <!-- Background image with small filter on top -->
   <div class="parallax_1">
-
-    <!-- Navigationsleiste -->
-    <div id ="navigation">
-          <a href="#Logo" class="logo"> carbon</a>
-
-          <div class="navigation_links">
-              <a href="#Locations" class="normal"> Locations</a>
-              <a href="#rent" class="normal"> Rent</a>
-              <a href="#einloggen" class="normal"> Einloggen</a>
-          </div>
-
-      </div>
-    <br>
-
-
-    <script>
-    window.onscroll = function() {myFunction()};
-
-    var navbar = document.getElementById("navigation");
-    var sticky = navbar.offsetTop;
-
-    function myFunction() {
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add("sticky")
-    } else {
-      navbar.classList.remove("sticky");
-    }
-    }
-    </script>
 
     <!-- kleiner Filter -->
     <div class="filter_klein">
@@ -112,38 +112,101 @@
 
   <div class="Contentbereich2_Homepage">
     <div style="position: absolute; left: 49px; top: 56px; font-family: 'Montserrat', normal; font-weight: 800; font-size: 30px; line-height: 37px; display: flex; align-items: center; color: #FFFFFF;">
-      Wie ist Deine Stimmung heute? </div>
+    Wonach ist dir heute? </div>
+
     <div class="Teaserkreis">
     </div>
-    <div class="Teaserkreis" style="left:25%">
+    <img src="images/auto.png" style="position: absolute; left: 4.53%; top: 45%;">
+    <div style="position: absolute; left: 5%; top: 75%; font-family: 'Montserrat'; font-style, normal; font-weight: 800; font-size: 18px; line-height: 17px; display: flex; align-items: center; color: #FFFFFF;">
+      Sportwagen </div>
+
+    <div class="Teaserkreis" style="left:20%">
     </div>
-    <div class="Teaserkreis" style="left:40%">
+    <img src="images/auto.png" style="position: absolute; left: 21.58%; top: 45%;">
+    <div style="position: absolute; left: 22.8%; top: 75%; font-family: 'Montserrat'; font-style, normal; font-weight: 800; font-size: 18px; line-height: 17px; display: flex; align-items: center; color: #FFFFFF;">
+       Cabriolet </div>
+
+    <div class="Teaserkreis" style="left:37%">
     </div>
-    <div class="Teaserkreis" style="left:55%">
+    <img src="images/auto.png" style="position: absolute; left: 38.54%; top: 45%;">
+    <div style="position: absolute; left: 41%; top: 75%; font-family: 'Montserrat'; font-style, normal; font-weight: 800; font-size: 18px; line-height: 17px; display: flex; align-items: center; color: #FFFFFF;">
+      SUV </div>
+
+    <div class="Teaserkreis" style="left:54%">
     </div>
-    <div class="Teaserkreis" style="left:70%">
+    <img src="images/auto.png" style="position: absolute; left: 55.54%; top: 45%;">
+    <div style="position: absolute; left: 56.7%; top: 75%; font-family: 'Montserrat'; font-style, normal; font-weight: 800; font-size: 18px; line-height: 17px; display: flex; align-items: center; color: #FFFFFF;">
+    Limousine </div>
+
+    <div class="Teaserkreis" style="left:71%">
     </div>
-    <div class="Teaserkreis" style="left:85%">
+    <img src="images/auto.png" style="position: absolute; left: 72.53%; top: 45%;">
+    <div style="position: absolute; left: 74.5%; top: 75%; font-family: 'Montserrat'; font-style, normal; font-weight: 800; font-size: 18px; line-height: 17px; display: flex; align-items: center; color: #FFFFFF;">
+     Kombi </div>
+
+    <div class="Teaserkreis" style="left:87%">
     </div>
+    <img src="images/auto.png" style="position: absolute; left: 88.53%; top: 45%;">
+    <div style="position: absolute; left: 91.2%; top: 75%; font-family: 'Montserrat'; font-style, normal; font-weight: 800; font-size: 18px; line-height: 17px; display: flex; align-items: center; color: #FFFFFF;">
+     Van </div>
+
   </div>
+
 
 <div class="parallax_3"></div>
 
+<!-- Footer -->
+<div class="footer">
+    <div class="footer_box">
+        <p class="footer_h"><a href="#" class="logo_footer" >carbon </a> &nbsp;Autovermietung </p>
+                <p class="footer_text">
+                    Willy-Brandt-Straße 75 <br>
+                    20459 Hamburg <br>
+                    Deutschland <br>
+                </p>
+        </div>
 
-</div>
-<div style="width:100%; height:300px; background-color:grey;">
-	<div style="width:25%; height:300px;float:left;color:white">
-	<h3>BILDUNG</h3>
-	<a href="https://www.hsba.de/studium/bachelor/uebersicht">Bachelor-Studiengänge (Übersicht)</a>
+        <div class="footer_box">
+            <p class="footer_h">Das wichtigste auf einen Blick</p>
+            <a href="#" class="footer_links">
+                Cars
+            </a>
+            <br>
+            <a href="#" class="footer_links">
+                Locations
+            </a>
+            <br>
+            <a href="https://www.facebook.com/"><img src="icons8-facebook-32.png"></a>
+            <a href="https://www.instagram.com/"><img src="icons8-instagram-32.png"></a>
+            <a href="https://twitter.com/"><img src="icons8-twitter-32.png"></a>
 
-</div>
+        </div>
 
-	<div style="width:25%; height:300px;float:left;color:white">
-	<h3>POPULAR PAGES</h3>
-	<a href="https://www.hsba.de/studium/bachelor/duales-studium">Was ist ein duales Studium?</a>
+        <div class="footer_box">
+            <p class="footer_h">Weiteres</p>
+                <a href="#" class="footer_links">
+                AGBs
+                </a>
+            <br>
+                <a href="#" class="footer_links">
+                Datenschutz
+                    </a>
+            <br>
+                <a href="#" class="footer_links">
+                Impressum
+                </a>
+            </div>
 
-</div>
-	<div style="width:25%; height:300px;float:left;color:white">
-	<h3>KONTAKT</h3>
-	<a href="https://www.hsba.de/kontakt">Ansprechpartner</a>
-</div>
+        <div class="footer_box">
+            <p class="footer_h">Jetzt anmelden!</p>
+            <p class="footer_text">Werde Teil der Carbon Community und schalte dein erstes Auto gratis frei! </p>
+            </div>
+
+<!--    <a target="_blank" href="https://icons8.com/icon/44907/instagram">Instagram</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+        <a target="_blank" href="https://icons8.com/icon/47936/facebook">Facebook</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+        <a target="_blank" href="https://icons8.com/icon/44411/twitter">Twitter</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+
+
+-->
+    </div>
