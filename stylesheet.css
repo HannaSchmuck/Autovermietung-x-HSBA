@@ -375,3 +375,297 @@ body, html {
 
 /* Teaser Kreise */
 
+
+/*Produktdetailseite*/
+.contentdetail{
+    width: 100%;
+    height: 700px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardescription{
+    width: 1106px;
+    height: 290px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 10px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+}
+
+.bild_modell_carsdescription{
+    width: 460px;
+    height: 290px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+/*Das Bild in der Detailkarte, links*/
+ .autobild{
+   width: 400px;
+   height: 202px;
+   float: left;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/*Der Text in der Detailkarte, rechts*/
+.text_cardescription{
+    width: 630px;
+    height: 290px;
+    float: right;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+.zeile1{
+  width: 550px;
+  height: 60px;
+  font-size: 17px;
+  border-bottom: 1px solid #10E6CD;
+  line-height: 21px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  vertical-align: middle;
+}
+
+.zeitraum{
+  width: 250px;
+  height: 23px;
+  font-size: 17px;
+  float: left;
+  text-align: center;
+}
+
+.vonbis{
+  box-sizing: border-box;
+  float: left;
+  width: 86px;
+  height: 23px;
+  font-size: 14px;
+  text-align: center;
+  background: rgba(60, 60, 60, 0.65);
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 3px;
+}
+
+.zeile2{
+      width: 550px;
+      height: 55px;
+      border-bottom: 1px solid #10E6CD;
+      font-size: 14px;
+      line-height: 17px;
+      color: #FFFFFF;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.row{
+  height: 100%;
+}
+
+.textblau{
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  justify-content: center;
+  align-items: center;
+  color: #10E6CD;
+}
+
+.zeile3{
+    width: 550px;
+    height: 110px;
+
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i{font-size: 20px;}
+
+.table{
+    width: 474px;
+}
+
+.infozeile3{
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 17px;
+  color: #10E6CD;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.untercardescription{
+    width: 1106px;
+    height: 234px;
+}
+
+.untercardescriptionlinks{
+    width: 258px;
+    height: 180px;
+    float: left;
+}
+
+.untercardescriptionrechts{
+    width: 848px;
+    height: 180px;
+}
+
+.tableuntercarrechts{
+  width: 848px;
+  height: 180px;
+}
+
+.preise{
+  height: 45px;
+  vertical-align: top;
+  border-bottom: 1px solid #ffffff;
+}
+
+.auswahlen{
+  height: 85px;
+  vertical-align: top;
+}
+
+.einloggen{
+  height: 50px;
+  vertical-align: top;
+}
+
+.preis{
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 37px;
+  color: #10E6CD;
+  float: right;
+}
+
+.gesamtpreis{
+  font-size: 30px;
+  line-height: 37px;
+  color: #FFFFFF;
+  float: right;
+  margin-right: 10px;
+}
+
+.modellheading {
+  width: 224px;
+  color: rgba(138,246,233,1);
+
+  font-weight: 800;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+
+.ortheading {
+  width: 226px;
+  color: rgba(16,230,205,1);
+  line-height: 25px;
+  font-weight: 800;
+  font-size: 45px;
+  opacity: 1;
+  text-align: left;
+}
+
+.buttonorange {
+    float: right;
+    width: 230px;
+    height: 50px;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonorange_b {
+  cursor: pointer;
+  float: right;
+  width: 230px;
+  height: 50px;
+  background: rgba(239,92,33,1);
+  opacity: 1;
+
+      border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+      border-bottom-left-radius: 3px;
+      border-bottom-right-radius: 3px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+      overflow: hidden;
+
+      color: #ffffff;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 25px;
+      text-align: center;
+      display: inline-block;
+      align-items: center;
+      justify-content: center;
+}
+
+.buttonorange_b:hover {
+  background: #EF5C21;
+  box-shadow: 2px 0px 2px 3px rgba(255, 255, 255, 0.4);
+  border-radius: 3px;
+  color: white;
+}
+
+        .hinweis {
+          float: right;
+          width: 440px;
+          height: 29px;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+.hinweis_b{
+  cursor: pointer;
+  width: 440px;
+  height: 29px;
+  background: #ffffff;
+  opacity: 1;
+
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+
+  color: #262626;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  opacity: 1;
+  text-align: center;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+.hinweis_b:hover{
+  background: #ffffff;
+  box-shadow: 2px 0px 2px 3px rgba(255, 255, 255, 0.4);
+  border-radius: 3px;
+  color: #262626;
+}
