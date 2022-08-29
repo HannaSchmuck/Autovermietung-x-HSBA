@@ -216,7 +216,7 @@ box-shadow: 0px 7px 4px 7px rgba(0, 0, 0, 0.5);}
 
 /* Dynamisches Element: Festes Hintergrundbild scrollender Text */
 body, html {
-  height: 5000px;
+  max-height: 5000px;
 }
 
 .parallax_1 {
@@ -339,3 +339,39 @@ body, html {
   border-style: solid;
   border-radius: 50%;
 }
+
+
+/* statische Seiten */
+.contentstatisch{
+  width: 100%;
+  max-height: 2900px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statischertext{
+     width: 979px;
+     max-height: 2686px;
+     padding:106px;
+}
+
+.static_h{
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 37px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;}
+
+.static_p{
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+
+/* Teaser Kreise */
+
