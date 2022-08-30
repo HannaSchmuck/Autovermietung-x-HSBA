@@ -207,15 +207,16 @@ box-shadow: 0px 7px 4px 7px rgba(0, 0, 0, 0.5);}
 
 /* Dynamisches Element: Festes Hintergrundbild scrollender Text */
 body, html {
-  max-height: 5000px;
+  height: 160%;
 }
 
 .parallax_1 {
   /* The image used */
   background-image: url('images/background-home.jpg');
+  z-index: 1;
 
   /* Full height */
-  height: 602px;
+  height: 100%;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -224,42 +225,15 @@ body, html {
   background-size: cover;
 }
 
-.parallax_2 {
-    /* The image used */
-    background-image: url('images/background-home.jpg');
-
-    /* Full height */
-    height: 7.5%;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .parallax_3 {
-      /* The image used */
-      background-image: url('images/background-home.jpg');
-
-      /* Full height */
-      height: 25%;
-
-      /* Create the parallax scrolling effect */
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
   /* Filter_klein */
 
 .filter_klein {
+  z-index: 2;
   position: absolute;
   width: 430px;
   height: 395px;
   left: 6%;
-  top: 19.7%;
+  top: 22.7%;
   background: #262626;
   border-radius: 16px;
  }
@@ -297,29 +271,41 @@ body, html {
           top: 335px;
           background: #EF5C21;
           box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.5);
-          border-radius: 3px;}
+          border-radius: 3px;
+          transition-duration: 0.4s;
+          cursor: pointer
+}
+
+.button_aufgehts_1 {
+  background-color:#ef5c21;}
+
+.button_aufgehts_1:hover {
+    background-color: #bf400d;}
 
 /* Contentbereich1_Homepage*/
 .Contentbereich1_Homepage {
+  z-index: 2;
   position: absolute;
   width: 100%;
   height: 600px;
-  top: 658px;
+  top: 858px;
   background-color: #3C3C3C;
 }
 
 /* Contentbereich2_Homepage*/
 .Contentbereich2_Homepage {
+  z-index: 2;
   position: absolute;
   width: 100%;
   height: 600px;
-  top: 1358px;
+  top: 1558px;
   background-color: #3C3C3C;
 }
 
 /* Teaser Kreise */
 
 .Teaserkreis {
+  z-index:2;
   position: absolute;
   width: 200px;
   height: 200px;
@@ -330,42 +316,6 @@ body, html {
   border-style: solid;
   border-radius: 50%;
 }
-
-
-/* statische Seiten */
-.contentstatisch{
-  width: 100%;
-  max-height: 2900px;
-  display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.statischertext{
-     width: 979px;
-     max-height: 2686px;
-     padding:106px;
-}
-
-.static_h{
-  font-weight: 800;
-  font-size: 30px;
-  line-height: 37px;
-  display: flex;
-  align-items: center;
-  color: #FFFFFF;}
-
-.static_p{
-  font-size: 12px;
-  line-height: 15px;
-  display: flex;
-  align-items: center;
-  color: #FFFFFF;
-}
-
-
-/* Teaser Kreise */
-
 
 /*Produktdetailseite*/
 .contentdetail{
