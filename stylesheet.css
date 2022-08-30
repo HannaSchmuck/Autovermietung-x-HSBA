@@ -124,6 +124,95 @@ a.logo{
     .footer_links{
     text-decoration: none;
     }
+    
+    /*Alles was mit den Filtern zu tun hat*/
+    .Filterbox{
+    width: 95%;
+    background: #3C3C3C;
+    height: auto;
+    margin: auto;
+    border-radius: 4px;
+    padding-bottom: 10px;
+    }
+
+    .filterzeile{
+        margin: auto;
+    }
+
+    .filter{
+        float: left;
+        margin-left: 27px;
+    }
+
+    input[type=submit]{
+        width: 121px;
+        height: 35px;
+        box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.5);
+        background-color: #EF5C21;
+        border: none;
+        border-radius: 3px; 
+    }
+
+    input[type=date]{
+        width: 121px;
+        height: 35px;
+        background-color: rgba(217,217,217, 0.26);
+        border: 1px solid black;
+        border-radius: 3px;
+        color: white;
+    }
+
+    input[type=number]{
+        width: 121px;
+        height: 35px;
+        background-color: rgba(217,217,217, 0.26);
+        border: 1px solid black;
+        border-radius: 3px;
+        color: white;
+    }
+
+    select {
+        border: 1px solid black;
+        border-radius: 3px;
+        background-color:rgba(217,217,217, 0.26);
+        color: white;
+        height: 35px;
+    }
+
+    option[value=""][disabled] {
+      display: none;
+    }
+
+    .dropbtn {
+      background-color: #404040;
+      color: white;
+      font-size: 16px;
+      height: 35px;
+      border: none;
+      border-radius: 3px;
+      margin-left: 27px;
+    }
+
+    .dropbtn:hover, .dropbtn:focus {
+      background-color: #10E6CD;
+    }
+
+
+    .dropdown {
+        position: relative;
+        display: inline;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: relative;
+      width: 1178px;
+      overflow: auto;
+    }
+
+    .show {display: block;}
+
+
 
 /*Die Registerkarten*/
 .car {
