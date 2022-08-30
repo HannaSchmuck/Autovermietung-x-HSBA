@@ -615,7 +615,9 @@ i{font-size: 20px;}
 
 .Fehlermeldung_Produktübersicht {
     z-index: 2;
-    margin: auto;
+    position: absolute;
+    top: 10%;
+    left: 27%;
     width: 821px;
     height: 335px;
     background: rgba(255, 255, 255, 0.8);
