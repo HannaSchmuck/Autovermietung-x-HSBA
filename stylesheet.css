@@ -5,14 +5,16 @@ body{
     font-size: 18px;
     color: #10E6CD;
     background-color: #262626;}
-
 /* Style the navbar */
-#navigation {
+.navigation {
   overflow: hidden;
   background-color: #000000;
     font-family: "Montserrat", sans-serif;
     width: 100%;
     height: 56px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
 }
 
 /*Align the div for the Links to the right side*/
@@ -48,21 +50,10 @@ a.logo{
     }
 
 /*make links tourquise when hovering*/
-#navigation a:hover {
+.navigation a:hover {
     color: #10E6CD
     }
 
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 60px;
-}
 
 /*Das Bild, was als anmeldebutton dient, wird hier designt*/
 .anmelden_img {
