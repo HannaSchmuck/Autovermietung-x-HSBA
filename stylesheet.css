@@ -610,3 +610,16 @@ i{font-size: 20px;}
   border-radius: 3px;
   color: #262626;
 }
+
+/* Fehlermeldung Produktübersicht*/
+
+.Fehlermeldung_Produktübersicht {
+    z-index: 2;
+    margin: auto;
+    width: 821px;
+    height: 335px;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+    border-radius: 16px;
+   }
