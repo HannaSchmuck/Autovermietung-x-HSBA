@@ -124,7 +124,6 @@ a.logo{
     .footer_links{
     text-decoration: none;
     }
-    
     /*Alles was mit den Filtern zu tun hat*/
     .Filterbox{
     width: 95%;
@@ -170,7 +169,16 @@ a.logo{
         border-radius: 3px;
         color: white;
     }
-
+    
+     input[type=checkbox]{
+        background-color: rgba(217,217,217, 0.26);
+        border: 1px solid black;
+        border-radius: 3px;
+        color: white;
+        height: 25px;
+            width: 25px;
+    }
+        
     select {
         border: 1px solid black;
         border-radius: 3px;
@@ -206,11 +214,29 @@ a.logo{
     .dropdown-content {
       display: none;
       position: relative;
-      width: 1178px;
+      width: 100%;
       overflow: auto;
     }
 
     .show {display: block;}
+
+    /*Hier werden die Buttons für das Zurücksetzen der Filter und der gesanten Auswahl zurückgesetzt */
+
+    .zurucksetzen_button {
+        color: #ffffff;
+        background-color: #404040;
+        text-align: center;
+        text-decoration: none;
+        line-height: 22px;
+        height: 35px;
+        border-radius: 3px;
+        border: none;
+    }
+
+    /*make buttons tourquise when hovering*/
+    .zurucksetzen_button:hover, .zurucksetzen_button:focus {
+      background-color: #10E6CD;
+    }
 
 
 
@@ -290,6 +316,17 @@ a.logo{
         color: #ffffff;
         margin-left: 23px;
         }
+
+/* content auf der Produktübersichtsseite */
+.content_car{
+        width: 100%;
+        height: 700px;
+        padding: 15px 15px 15px 15px;
+        }
+
+.buchungen_table {
+    height: 500px;
+}
 
 
 
