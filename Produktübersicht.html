@@ -24,8 +24,10 @@
     </div>
          
 <br>
+<!--    Hier wird nach einem Zeilenumbruch, der für Abstand zur Navigationsleiste dient, ein Div aufgebaut in welchem sich die Filter befinden-->
     <div class="Filterbox"> 
         <div class="filterzeile">
+<!--            Hier beginnenen die Filter. Sie befinden sich alle in einer Form, damit sie durch einen einzelenen Button an die Datenbank übermittelt werden können.-->
                 <form method="post">
                         <div class="filter">
                               <label for="Stadt">Ort</label>
@@ -71,7 +73,13 @@
                     <br>
                         <input type="submit" value="auf gehts!">
                 </div>
+                    
+                <div class="filter">
+                    <br>
+                      <a href="#" class="zurucksetzen"><button class="zurucksetzen_button">Gesamte Auswahl zurücksetzen </button></a>
+                    </div>    
             </form>
+<!--            In dem anschließendem Div befindet sich die Filter, welche ausklappen, wenn man auf den Filter-Button klickt-->
             <div class="dropdown">
                 <br>
                 <button onclick="myFunction()" class="dropbtn">Filter ↓</button>
@@ -175,6 +183,10 @@
                                     <input type="submit" value="Filter anwenden">
                             </div>
                         </form>
+                            <div class="filter">
+                            <br>
+                                <a href="#" class="zurucksetzen"><button class="zurucksetzen_button">Filter/Sortierung zurücksetzen</button></a> 
+                            </div>
                         </div>
                     </div>
             </div>
@@ -182,10 +194,12 @@
     </div>
     
 <br>
-    <div class="content" style="border: height: 700px;padding: 15px 15px 15px 15px">
+<!--    Hier befindet sich nach einem weiteren Linebreak der Content Bereich in dem die verfügbaren Modelle aufgelistet werden-->
+    <div class="content_car">
         <br>
         <div class="content_2" >
-             <div  class="car" >
+<!--            Die div Klasse "car" beinhaltet jeweils ein Automodell-->
+           <div  class="car" >
                 <div class="autoname">VW Corsa</div> 
                 <div class="autotyp">$Type</div>
                 <div class="car_img"><img src="auto.png" class="car_img_img"></div>
@@ -272,21 +286,6 @@
             </div>
     </div>
    
-<script>
-/* Script für die sticky Navbar*/
-//window.onscroll = function() {myFunction()};
-//
-//var navbar = document.getElementById("navigation");
-//var sticky = navbar.offsetTop;
-//
-//function myFunction() {
-//  if (window.pageYOffset >= sticky) {
-//    navbar.classList.add("sticky")
-//  } else {
-//    navbar.classList.remove("sticky");
-//  }
-//}
-</script>
     
 <script>
 /* When the user clicks on the button,
@@ -303,8 +302,5 @@ function myFunction() {
 </html>
 
     
-    
-</body>
-
-</html>
+ 
 
