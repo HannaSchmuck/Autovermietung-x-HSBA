@@ -284,7 +284,7 @@ a.logo{
         border-radius: 16px;
         box-shadow: 0px 10px 5px 5px rgba(0, 0, 0, 0.25);
         float: left;
-        margin: 1% 1% 2% 2%;
+        margin: 2% 1% 2% 1%;
         padding: 10px 10px 10px 10px;
     }
     
@@ -355,9 +355,12 @@ a.logo{
 
 /* content auf der Produktübersichtsseite */
 .content_car{
-        width: 100%;
-        height: 700px;
-        padding: 15px 15px 15px 15px;
+        width: 95%;
+        height: 750px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: auto;
         }
 
 /*Die Tabelle auf der meine Buchungen Seite. Sie ist in einen immer gleich großen Div eingebettet*/
