@@ -10,11 +10,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylesheet.css">
+    
+
 </head>
 
 <body>
-    <div id ="navigation">
-        <a href="#Logo" class="logo"> carbon</a>
+    <div class ="navigation">
+        <a href="#Logo" class="logo">carbon</a>
         
        
         <div class="navigation_links">
@@ -24,13 +26,60 @@
         </div>
         
     </div>
-
-    <div class="content" style="border: 1px solid #10E6CD; height: 700px;padding: 15px 15px 15px 15px">
-      Hier kommt die Tabelle rein
-    </div>
     
-<br>
-  
+    <div class="content_meineBuchungen">
+
+        <div class="meineBuchungen_uberschrift">
+          Hallo §Username, hier findest du eine Übersicht über deine Buchungen:
+        </div>
+        <br>
+        <div class="tabelleninfos">
+            <div class="tabelleninfos_text"> vor | zurück </div>
+            <div class="tabelleninfos_text">2 Buchungen </div>
+            <div class="tabelleninfos_text">1 Seite </div>
+        </div>
+        
+        <div class="buchungen_table_div">
+            <table class="buchungen_table">
+                <tr class="table_header">
+                    <td class="buchungen_td">Booking ID</td>
+                    <td>Von</td>
+                    <td>Bis</td>
+                    <td>Hersteller</td>
+                    <td>Name</td>
+                    <td>Buchung vom</td>
+                </tr>
+                <tr class="table_content">
+                    <td class="buchungen_td">1</td>
+                    <td>18.07.2022</td>
+                    <td>20.07.2022</td>
+                    <td>BMW</td>
+                    <td>3er Touring</td>
+                    <td>14.07.2022; 13:48</td>
+                    <td><img src="auto.png" class="table_img"></td>
+                </tr>
+                <tr class="table_content">
+                    <td class="buchungen_td">1</td>
+                    <td>22.07.2022</td>
+                    <td>29.07.2022</td>
+                    <td>Audi</td>
+                    <td>A3 Cabriolet</td>
+                    <td>14.07.2022; 14:48</td>
+                </tr>
+                <tr class="table_content">
+                    <td class="buchungen_td">1</td>
+                    <td>30.07.2022</td>
+                    <td>02.08.2022</td>
+                    <td>Mercedes-Benz</td>
+                    <td>SLC</td>
+                    <td>14.07.2022; 15:48</td>
+                </tr>
+            
+            </table>
+        </div>
+        <br>
+   </div>
+    
     <div class="footer">
     <div class="footer_box"> 
         <p class="footer_h"><a href="#" class="logo_footer" >carbon </a> &nbsp;Autovermietung </p>
@@ -78,26 +127,6 @@
             </div>
     </div>
    
-<script>
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("navigation");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-</script>
-    
-    
-</body>
-
-</html>
-
     
     
 </body>
