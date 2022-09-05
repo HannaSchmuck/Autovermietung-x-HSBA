@@ -10,7 +10,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylesheet.css">
-    
+
+    <style>
+        .paging_button {
+        color: #ffffff;
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        line-height: 35px;
+        }
+        .paging_button:hover{
+            color: #10E6CD;
+        }
+    </style>
 
 </head>
 
@@ -34,9 +46,13 @@
         </div>
         <br>
         <div class="tabelleninfos">
-            <div class="tabelleninfos_text"> vor | zurück </div>
-            <div class="tabelleninfos_text">2 Buchungen </div>
-            <div class="tabelleninfos_text">1 Seite </div>
+            <div class="tabelleninfos_text">
+               <a href="meine_Buchungen2.html" class="paging_button">vor</a> 
+                |
+                zurück 
+            </div>
+            <div class="tabelleninfos_text">8 Buchungen </div>
+            <div class="tabelleninfos_text">2 Seiten </div>
         </div>
         
         <div class="buchungen_table_div">
@@ -50,16 +66,16 @@
                     <td>Buchung vom</td>
                 </tr>
                 <tr class="table_content">
-                    <td class="buchungen_td">1</td>
-                    <td>18.07.2022</td>
-                    <td>20.07.2022</td>
+                    <td class="buchungen_td">8</td>
+                    <td>18.08.2022</td>
+                    <td>20.08.2022</td>
                     <td>BMW</td>
                     <td>3er Touring</td>
                     <td>14.07.2022; 13:48</td>
                     <td><img src="auto.png" class="table_img"></td>
                 </tr>
                 <tr class="table_content">
-                    <td class="buchungen_td">1</td>
+                    <td class="buchungen_td">7</td>
                     <td>22.07.2022</td>
                     <td>29.07.2022</td>
                     <td>Audi</td>
@@ -67,11 +83,27 @@
                     <td>14.07.2022; 14:48</td>
                 </tr>
                 <tr class="table_content">
-                    <td class="buchungen_td">1</td>
-                    <td>30.07.2022</td>
-                    <td>02.08.2022</td>
+                    <td class="buchungen_td">6</td>
+                    <td>10.07.2022</td>
+                    <td>14.07.2022</td>
                     <td>Mercedes-Benz</td>
                     <td>SLC</td>
+                    <td>14.07.2022; 15:48</td>
+                </tr>
+                <tr class="table_content">
+                    <td class="buchungen_td">5</td>
+                    <td>05.07.2022</td>
+                    <td>08.07.2022</td>
+                    <td>Jaguar</td>
+                    <td>I-PACE</td>
+                    <td>14.07.2022; 14:48</td>
+                </tr>
+                <tr class="table_content">
+                    <td class="buchungen_td">4</td>
+                    <td>30.06.2022</td>
+                    <td>02.07.2022</td>
+                    <td>Range Rover</td>
+                    <td>Velar</td>
                     <td>14.07.2022; 15:48</td>
                 </tr>
             
@@ -132,3 +164,7 @@
 </body>
 
 </html>
+
+    
+
+
