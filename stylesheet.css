@@ -4,7 +4,9 @@ body{
     font-weight: 400;
     font-size: 18px;
     color: #10E6CD;
-    background-color: #262626;}
+    background-color: #262626;
+    margin: 0;
+    }
 /* Style the navbar */
 .navigation {
   overflow: hidden;
