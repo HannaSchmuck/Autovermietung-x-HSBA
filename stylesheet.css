@@ -328,72 +328,9 @@ a.logo{
     height: 500px;
 }
 
-
-
 .logo{
     font-family: 'Racing Sans One', cursive;}
 
-/* content */
-.content{
-        width: 100%;
-        height: 665px;
-        }
-
-h2{font-weight: 800;
-    font-size: 30px;
-    line-height: 37px;
-
-    align-items: center;
-    color: #8AF6E9;
-    }
-
-/* car.description */
-.car.description{
-    width: 70%;
-    height: 250px;
-    background: #3C3C3C;
-    }
-
- .autobild{ float: left;
-    width: 400px;}
-
- .text.car.description
-    {float: right;
-    width: 50%;
-    height: 250px;}
-
-
-.stadt.auto{float: left;}
-
-  /* Auswählen */
-.button.orange{float:right;
-    width: 100px;
-    height: 30px;
-    background: #EF5C21;
-    box-shadow: 0px 4px 4px 7px rgba(0, 0, 0, 0.5);
-
-    font-weight: 800;
-    font-size: 25px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    color: #FFFFFF;}
-
-/* hinweis */
-.hinweis{
-width: 400px;
-height: 17px;
-font-size: 14px;
-line-height: 17px;
-/* identical to box height */
-
-display: flex;
-align-items: center;
-
-color: #262626;
-
-background: #FFFFFF;
-box-shadow: 0px 7px 4px 7px rgba(0, 0, 0, 0.5);}
 
 /* Style für die Homepage */
 
@@ -509,6 +446,7 @@ body, html {
   border-radius: 50%;
 }
 
+
 /*Produktdetailseite*/
 .contentdetail{
     width: 100%;
@@ -517,7 +455,7 @@ body, html {
     justify-content: center;
     align-items: center;
 }
-
+/*Auto Details*/
 .cardescription{
     width: 1106px;
     height: 290px;
@@ -578,6 +516,7 @@ img{
   text-align: center;
 }
 
+/*ausgewählter Zeitraum*/
 .vonbis{
   box-sizing: border-box;
   float: left;
@@ -643,6 +582,7 @@ i{font-size: 20px;}
   white-space: nowrap;
 }
 
+/*der Inhalt unter den Auto Details*/
 .untercardescription{
     width: 1106px;
     height: 234px;
@@ -716,6 +656,7 @@ i{font-size: 20px;}
   text-align: left;
 }
 
+/*Orangener Button AUSWÄHLEN*/
 .buttonorange {
     float: right;
     width: 230px;
@@ -760,6 +701,7 @@ i{font-size: 20px;}
   color: white;
 }
 
+/*weißer Button EINLOGGEN*/
         .hinweis {
           float: right;
           width: 440px;
@@ -803,6 +745,7 @@ i{font-size: 20px;}
   color: #262626;
 }
 
+
 /* Fehlermeldung Produktübersicht*/
 
 .Fehlermeldung_Produktübersicht {
@@ -817,3 +760,36 @@ i{font-size: 20px;}
     border: 1px solid black;
     border-radius: 16px;
    }
+
+
+/* statische Seiten */
+.contentstatisch{
+    width: 100%;
+    max-height: 2900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statischertext{
+        width: 979px;
+        max-height: 2686px;
+        padding:106px;
+}
+
+.static_h{
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 37px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;}
+
+.static_p{
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+
