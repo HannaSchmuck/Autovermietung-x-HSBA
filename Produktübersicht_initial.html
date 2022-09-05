@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+
+<html>
+ <meta charset="UTF-8">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+    
+    <style>
+        .content_car_background {
+            background-image: url(street_background.jpg);
+            height: 740px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .ubersicht_text {
+            margin: auto;
+            width: 600px;
+            text-align: center;
+            color: #ffffff;
+            font-size: 40px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600; 
+        }
+        
+        a.zurucksetzen {
+        color: #ffffff;
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        font-size: 13px;
+        line-height: 35px;
+        }
+        
+        .zurucksetzen:hover{
+            color: #10E6CD;
+        }
+
+    </style>
+    
+</head>
+
+<body>
+    <div class ="navigation">
+        <a href="#Logo" class="logo"> carbon</a>
+        <div class="navigation_links">
+            <a href="#Locations" class="normal"> Locations</a>
+            <a href="#rent" class="normal"> Rent</a>
+            <a href="#Locations" class="normal"> <img src="Anmelden.png" class="anmelden_img"></a>    
+        </div>
+        
+    </div>
+         
+<br>
+<!--    Hier wird nach einem Zeilenumbruch, der für Abstand zur Navigationsleiste dient, ein Div aufgebaut in welchem sich die Filter befinden-->
+    <div class="Filterbox"> 
+        <div class="filterzeile">
+<!--            Hier beginnenen die Filter. Sie befinden sich alle in einer Form, damit sie durch einen einzelenen Button an die Datenbank übermittelt werden können.-->
+                <form method="post" action="produktübersicht.html">
+                        <div class="filter">
+                              <label for="Stadt">ORT</label>
+                              <br>
+                              <select name="" id="Stadt">
+                                  <option value="" disabled selected>Wo willst du dein Auto abholen?</option>
+                                  <option value="Berlin">Berlin</option>
+                                  <option value="Bielefeld">Bielefeld</option>
+                                  <option value="Bochum">Bochum</option>
+                                  <option value="Bremen">Bremen</option>
+                                  <option value="Dortmund">Dortmund</option>
+                                  <option value="Dresden">Dresden</option>
+                                  <option value="Freiburg">Freiburg</option>
+                                  <option value="Hamburg">Hamburg</option>
+                                  <option value="Köln">Köln</option>
+                                  <option value="Leipzig">Leipzig</option>
+                                  <option value="München">München</option>
+                                  <option value="Nürnberg">Nürnberg</option>
+                                  <option value="Paderborn">Paderborn</option>
+                                  <option value="Rostock">Rostock</option>
+                              </select>
+                        </div>
+
+                <div class="filter" >
+                    <label for="Abholdatum">VON</label> 
+                        <br>
+                        <input type="date" name=" " id="Abholdatum" value="">
+                </div>
+
+                <div class="filter" >
+                    <label for="Rückgabedatum">BIS</label>
+                        <br>
+                        <input type="date" name=" " id="Rückgabedatum" value="">
+                </div>
+
+                <div class="filter">
+                    <label for="Alter">Alter</label>
+                        <br>
+                        <input type="number" name=" " id="Alter" value="" min="18">
+                </div>
+
+                <div class="filter">
+                    <br>
+                    <a href="Produktübersicht.html">
+                        <input type="submit" value="auf geht’s!">
+                    </a>
+                </div>
+                    
+                <div class="filter">
+                    <br>
+                      <a href="#" class="zurucksetzen">Gesamte Auswahl zurücksetzen</a>
+                    </div>    
+            </form>
+<!--            In dem anschließendem Div befindet sich die Filter, welche ausklappen, wenn man auf den Filter-Button klickt-->
+            <div class="dropdown">
+                <br>
+                <button onclick="myFunction()" class="dropbtn">Filter ↓</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <br>
+                        <div class="Filterzeile">
+                            <form method="post">
+                                    <div class="filter">
+                                          <label for="Hersteller">Hersteller</label>
+                                          <br>
+                                          <select name="" id="Hersteller">
+                                              <option value="" disabled selected>Hersteller</option>
+                                              <option value="Audi">Audi</option>
+                                              <option value="BMW">BMW</option>
+                                              <option value="Ford">Ford</option>
+                                              <option value="Jaguar">Jaguar</option>
+                                              <option value="Maserati">Maserati</option>
+                                              <option value="Mercedes-Benz">Mercedes-Benz</option>
+                                              <option value="Mercedes-AMG">Mercedes-AMG</option>
+                                              <option value="Opel">Opel</option>
+                                              <option value="Skoda">Skoda</option>
+                                              <option value="Range Rover">Range Rover</option>
+                                              <option value="Volkswagen">Volkswagen</option>
+                                          </select>
+                                    </div>
+
+                            <div class="filter" >
+                                <label for="Getriebe">Getriebe</label> 
+                                    <br>
+                                      <select name="" id="Hersteller">
+                                            <option value="" disabled selected>Alle</option>
+                                            <option value="Manuell">Manuell</option>
+                                            <option value="Automatik">Automatik</option>
+                                      </select>
+                            </div>
+                                
+                            <div class="filter" >
+                                <label for="Antrieb">Antrieb</label> 
+                                    <br>
+                                      <select name="" id="Antrieb">
+                                            <option value="" disabled selected>Alle</option>
+                                            <option value="Verbrenner">Verbrenner</option>
+                                            <option value="Elektro">Elektro</option>
+                                      </select>
+                            </div>
+
+                            <div class="filter">
+                                <label for="Sitze">Sitze</label>
+                                    <br>
+                                    <select name="" id="Sitze">
+                                            <option value="" disabled selected>Alle</option>
+                                            <option value="2">2</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                      </select>
+                            </div>
+                                
+                             <div class="filter">
+                                <label for="Türen">Türen</label>
+                                    <br>
+                                    <select name="" id="Sitze">
+                                            <option value="" disabled selected>Alle</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                      </select>
+                            </div>
+                            
+                             <div class="filter">
+                                <label for="Preis">Preis bis:</label>
+                                    <br>
+                                     <input type="number" name=" " id="Alter" value="" min="0">
+                            </div>
+                            
+                            <div class="filter">
+                                <label for="Klima">Klima</label> 
+                                <br>
+                                 <input type="checkbox" name="Klima" id="Klima" value="Klima">   
+                            </div>
+                                
+                            <div class="filter">
+                                <label for="GPS">GPS</label> 
+                                <br>
+                                 <input type="checkbox" name="GPS" id="GPS" value="GPS">   
+                            </div>
+                                
+                            <div class="filter">
+                                <label for="Sortierung">Sortierung</label>
+                                    <br>
+                                    <select name="" id="Sitze">
+                                            <option value="Preis aufsteigend">Preis aufsteigend</option>
+                                            <option value="Preis absteigend">Preis absteigend</option>
+                                      </select>
+                                </div>
+
+                            <div class="filter">
+                                <br>
+                                    <input type="submit" value="Filter anwenden">
+                            </div>
+                        </form>
+                            <div class="filter">
+                            <br>
+                                <a href="#" class="zurucksetzen">Filter/Sortierung zurücksetzen</a> 
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content_car_background">
+        <div class="ubersicht_text_wrap">
+            <div class="ubersicht_text">14 Städte</div>
+        <br>
+            <div class="ubersicht_text">64 Automodelle</div>
+        <br>
+            <div class="ubersicht_text">Deine Freiheit!</div>
+        </div>
+    </div>
+
+    
+<br>
+  
+    <div class="footer">
+    <div class="footer_box"> 
+        <p class="footer_h"><a href="#" class="logo_footer" >carbon </a> &nbsp;Autovermietung </p>
+                <p class="footer_text">
+                    Willy-Brandt-Straße 75 <br>
+                    20459 Hamburg <br>
+                    Deutschland <br>
+                </p>
+        </div>
+    
+        <div class="footer_box"> 
+            <p class="footer_h">Das wichtigste auf einen Blick</p>
+            <a href="#" class="footer_links"> 
+                Cars
+            </a>
+            <br>
+            <a href="#" class="footer_links">
+                Locations
+            </a>
+            <br>    
+            <a href="https://www.facebook.com/"><img src="icons8-facebook-32.png"></a>
+            <a href="https://www.instagram.com/"><img src="icons8-instagram-32.png"></a>
+            <a href="https://twitter.com/"><img src="icons8-twitter-32.png"></a>
+            
+        </div>
+    
+        <div class="footer_box"> 
+            <p class="footer_h">Weiteres</p>
+                <a href="#" class="footer_links"> 
+                AGBs 
+                </a>
+            <br>
+                <a href="#" class="footer_links"> 
+                Datenschutz
+                    </a>
+            <br>
+                <a href="#" class="footer_links">
+                Impressum
+                </a>
+            </div>
+    
+        <div class="footer_box"> 
+            <p class="footer_h">Jetzt anmelden!</p>
+            <p class="footer_text">Werde Teil der Carbon Community und schalte dein erstes Auto gratis frei! </p>
+            </div>
+    </div>
+   
+    
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+</script>
+    
+    
+</body>
+
+</html>
+
+    
+ 
