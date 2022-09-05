@@ -444,118 +444,635 @@ a.logo{
 
 /* Style für die Homepage */
 
-/* Dynamisches Element: Festes Hintergrundbild scrollender Text */
-body, html {
-  height: 160%;
-}
+/* Homepage: Dynamisches Element 1 - Festes Hintergrundbild scrollender Text */
 
-.parallax_1 {
-  /* The image used */
-  background-image: url('images/background-home.jpg');
-  z-index: 1;
+      .parallax_1 {
+        background-image: url('images/background-home.jpg');
+        z-index: 1;
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
 
-  /* Full height */
-  height: 100%;
+  /* Homepage: Filter_klein */
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-  /* Filter_klein */
-
-.filter_klein {
-  z-index: 2;
-  position: absolute;
-  width: 430px;
-  height: 395px;
-  left: 6%;
-  top: 22.7%;
-  background: #262626;
-  border-radius: 16px;
- }
-
-/* Filterbox_Ort */
-
- .filterbox_Ort {
-   position: absolute;
-     width: 308px;
-     height: 35.57px;
-     left: 49px;
-     top: 192.93px;
-     background-color: #555555;
-     border-style: black, solid, 2px;
-     border-radius: 2px;}
-
-/* Filterbox_Datum*/
-
-.filterbox_Datum {
+      .filter_klein {
+        z-index: 2;
         position: absolute;
-          width: 142px;
-          height: 35.57px;
-          left: 49px;
-          top: 270.39px;
-          background-color: #555555;
-          border-style: black, solid, 2px;
-          border-radius: 2px;}
+        width: 30%;
+        height: 50%;
+        left: 6%;
+        top: 22.7%;
+        background: #262626;
+        border-radius: 16px;
+       }
 
-/* Auf geht's button */
-.button_aufgehts {
+       /* Homepage: Überschrift 1 (klein) */
+
+       .Eine_Fahrt_Mit {
+         position: absolute;
+         left: 11%;
+         top: 10%;
+         font-family: 'Montserrat', normal;
+         font-weight: 400;
+         font-size: 12px;
+         line-height: 15px;
+         display: flex;
+         align-items: center;
+         color: #FFFFFF;
+        }
+
+          /* Homepage: Überschrift 1 (Logo) */
+
+        .Logo_kl_w {
           position: absolute;
-          width: 121px;
-          height: 35px;
-          left: 236px;
-          top: 335px;
-          background: #EF5C21;
-          box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.5);
-          border-radius: 3px;
-          transition-duration: 0.4s;
-          cursor: pointer
-}
+          left: 26.8%;
+          top: 9.225%;
+          font-family: 'Racing Sans One', cursive;
+          font-weight: 400;
+          font-size: 17px;
+          line-height: 21px;
+          display: flex;
+          align-items: center;
+          color: #FFFFFF;
+        }
 
-.button_aufgehts_1 {
-  background-color:#ef5c21;}
+        /* Homepage: Überschrift 2 (groß) */
 
-.button_aufgehts_1:hover {
-    background-color: #bf400d;}
+        .Klick_zu_Hause {
+          position: absolute;
+          left: 11%;
+          top: 15%;
+          font-family: 'Montserrat',
+          normal; font-weight: 800;
+          font-size: 40px;
+          line-height: 54px;
+          display: flex;
+          align-items: center;
+          color: #FFFFFF;
+        }
 
-/* Contentbereich1_Homepage*/
-.Contentbereich1_Homepage {
-  z-index: 2;
-  position: absolute;
-  width: 100%;
-  height: 600px;
-  top: 858px;
-  background-color: #3C3C3C;
-}
+       /* Homepage: Filterbox Ort */
 
-/* Contentbereich2_Homepage*/
-.Contentbereich2_Homepage {
-  z-index: 2;
-  position: absolute;
-  width: 100%;
-  height: 600px;
-  top: 1558px;
-  background-color: #3C3C3C;
-}
+          .Filterüberschrift_Ort {
+            position: absolute;
+            left: 11%;
+            top: 45%;
+            font-family: 'Montserrat', normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            display: flex;
+            align-items: center;
+            color: #FFFFFF;
+          }
 
-/* Teaser Kreise */
+           .option_filter {
+             font-family: 'Montserrat';
+             font-style: normal;
+             font-weight: 400;
+             font-size: 14px;
+             color: #FFFFFF;
+             background-color: #262626;
+           }
 
-.Teaserkreis {
-  z-index:2;
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  left: 3%;
-  top: 220px;
-  border: 1px;
-  border-color: #FFFFFF;
-  border-style: solid;
-  border-radius: 50%;
-}
+       /* Homepage: Filterbox Datum */
 
+          .Filter_Datum_Von {
+            position: absolute;
+            left: 11%;
+            top: 62%;
+            font-family: 'Montserrat', normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            display: flex;
+            align-items: center;
+            color: #FFFFFF;
+          }
+
+          .Filter_Datum_Bis {
+            position: absolute;
+            left: 52%;
+            top: 62%;
+            font-family: 'Montserrat', normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            display: flex;
+            align-items: center;
+            color: #FFFFFF;
+          }
+
+          .Kalenderbox {
+            font-family: 'Montserrat', normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            display: flex;
+            align-items: center;
+            color: #FFFFFF;
+          }
+
+        /* Auf geht's button */
+
+          .button_aufgehts {
+            position: absolute;
+            width: 121px;
+            height: 35px;
+            left: 60%;
+            top: 82%;
+            background: #EF5C21;
+            box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.5);
+            border-radius: 3px;
+            transition-duration: 0.4s;
+            cursor: pointer
+          }
+
+          .button_aufgehts_1 {
+            background-color:#ef5c21;}
+
+          .button_aufgehts_1:hover {
+              background-color: #bf400d;}
+
+              /* Auf geht's button (Schriftzug)*/
+
+               .auf_gehts_Home {
+                 position: absolute;
+                 width: 90px;
+                 height: 20px;
+                 left: 16px;
+                 top: 7px;
+                 font-family:'Montserrat';
+                 font-style: normal;
+                 font-weight: 800;
+                 font-size: 16px;
+                 line-height: 20px;
+                 display: flex;
+                 align-items: center;
+                 color: #FFFFFF;
+               }
+
+  /* Locations Sprungmarke */
+      #Locations {
+        position: absolute;
+        top: 80%;
+      }
+
+/* Homepage: Standortübersicht in Deutschland*/
+
+      .Contentbereich1_Homepage {
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 600px;
+        top: 858px;
+        background-color: #3C3C3C;
+      }
+
+          /* Homepage: Pinnadeln auf der Deutschlandkarte */
+
+            /* Homepage: Pinnadel Berlin */
+
+            .Pin_BER:link {
+              position: absolute;
+              top: 25.5%;
+              left: 27.5%;
+              height: 10%;
+              width: 2.5%;
+              background-image: url('images/Pin.png');
+              background-repeat: no-repeat;
+              }
+
+            .Pin_BER:hover {
+                position: absolute;
+                top: 25.5%;
+                left: 27.5%;
+                height: 10%;
+                width: 2.5%;
+                background-image:url("images/Pin_Orange.png");
+                background-repeat: no-repeat;
+              }
+
+              /* Homepage: Pinnadel Bielefeld */
+
+              .Pin_BI:link {
+                position: absolute;
+                top: 32%;
+                left: 16.5%;
+                height: 10%;
+                width: 2.5%;
+                background-image: url('images/Pin.png');
+                background-repeat: no-repeat;
+                }
+
+              .Pin_BI:hover {
+                  position: absolute;
+                  top: 32%;
+                  left: 16.5%;
+                  height: 10%;
+                  width: 2.5%;
+                  background-image:url("images/Pin_Orange.png");
+                  background-repeat: no-repeat;
+                }
+
+                /* Homepage: Pinnadel Bochum*/
+
+                .Pin_BO:link {
+                  position: absolute;
+                  top: 37%;
+                  left: 13%;
+                  height: 10%;
+                  width: 2.5%;
+                  background-image: url('images/Pin.png');
+                  background-repeat: no-repeat;
+                  }
+
+                .Pin_BO:hover {
+                    position: absolute;
+                    top: 37%;
+                    left: 13%;
+                    height: 10%;
+                    width: 2.5%;
+                    background-image:url("images/Pin_Orange.png");
+                    background-repeat: no-repeat;
+                  }
+
+                /* Homepage: Pinnadel Bremen */
+
+                .Pin_BR:link {
+                  position: absolute;
+                  top: 19%;
+                  left: 17%;
+                  height: 10%;
+                  width: 2.5%;
+                  background-image: url('images/Pin.png');
+                  background-repeat: no-repeat;
+                  }
+
+                .Pin_BR:hover {
+                    position: absolute;
+                    top: 19%;
+                    left: 17%;
+                    height: 10%;
+                    width: 2.5%;
+                    background-image:url("images/Pin_Orange.png");
+                    background-repeat: no-repeat;
+                  }
+
+                  /* Homepage: Pinnadel Dortmund */
+
+                  .Pin_DO:link {
+                    position: absolute;
+                    top: 36%;
+                    left: 14%;
+                    height: 10%;
+                    width: 2.5%;
+                    background-image: url('images/Pin.png');
+                    background-repeat: no-repeat;
+                    }
+
+                  .Pin_DO:hover {
+                      position: absolute;
+                      top: 36%;
+                      left: 14%;
+                      height: 10%;
+                      width: 2.5%;
+                      background-image:url("images/Pin_Orange.png");
+                      background-repeat: no-repeat;
+                    }
+
+                    /* Homepage: Pinnadel Dresden */
+
+                    .Pin_DR:link {
+                      position: absolute;
+                      top: 43%;
+                      left: 29.25%;
+                      height: 10%;
+                      width: 2.5%;
+                      background-image: url('images/Pin.png');
+                      background-repeat: no-repeat;
+                      }
+
+                    .Pin_DR:hover {
+                        position: absolute;
+                        top: 43%;
+                        left: 29.25%;
+                        height: 10%;
+                        width: 2.5%;
+                        background-image:url("images/Pin_Orange.png");
+                        background-repeat: no-repeat;
+                      }
+
+                      /* Homepage: Pinnadel Freiburg */
+
+                      .Pin_FR:link {
+                        position: absolute;
+                        top: 80%;
+                        left: 14.5%;
+                        height: 10%;
+                        width: 2.5%;
+                        background-image: url('images/Pin.png');
+                        background-repeat: no-repeat;
+                        }
+
+                      .Pin_FR:hover {
+                          position: absolute;
+                          top: 80%;
+                          left: 14.5%;
+                          height: 10%;
+                          width: 2.5%;
+                          background-image:url("images/Pin_Orange.png");
+                          background-repeat: no-repeat;
+                        }
+
+                        /* Homepage: Pinnadel Hamburg */
+
+                        .Pin_HH:link {
+                          position: absolute;
+                          top: 12.75%;
+                          left: 19.75%;
+                          height: 10%;
+                          width: 2.5%;
+                          background-image: url('images/Pin.png');
+                          background-repeat: no-repeat;
+                          }
+
+                        .Pin_HH:hover {
+                            position: absolute;
+                            top: 12.75%;
+                            left: 19.75%;
+                            height: 10%;
+                            width: 2.5%;
+                            background-image:url("images/Pin_Orange.png");
+                            background-repeat: no-repeat;
+                          }
+
+                          /* Homepage: Pinnadel Köln */
+
+                          .Pin_KÖLN:link {
+                            position: absolute;
+                            top: 40%;
+                            left: 12.5%;
+                            height: 10%;
+                            width: 2.5%;
+                            background-image: url('images/Pin.png');
+                            background-repeat: no-repeat;
+                            }
+
+                          .Pin_KÖLN:hover {
+                              position: absolute;
+                              top: 40%;
+                              left: 12.5%;
+                              height: 10%;
+                              width: 2.5%;
+                              background-image:url("images/Pin_Orange.png");
+                              background-repeat: no-repeat;
+                            }
+
+                            /* Homepage: Pinnadel Leipzig */
+
+                            .Pin_LEI:link {
+                              position: absolute;
+                              top: 40.5%;
+                              left: 25.5%;
+                              height: 10%;
+                              width: 2.5%;
+                              background-image: url('images/Pin.png');
+                              background-repeat: no-repeat;
+                              }
+
+                            .Pin_LEI:hover {
+                                position: absolute;
+                                top: 40.5%;
+                                left: 25.5%;
+                                height: 10%;
+                                width: 2.5%;
+                                background-image:url("images/Pin_Orange.png");
+                                background-repeat: no-repeat;
+                              }
+
+                              /* Homepage: Pinnadel München */
+
+                              .Pin_MÜN:link {
+                                position: absolute;
+                                top: 77.5%;
+                                left: 24.5%;
+                                height: 10%;
+                                width: 2.5%;
+                                background-image: url('images/Pin.png');
+                                background-repeat: no-repeat;
+                                }
+
+                              .Pin_MÜN:hover {
+                                  position: absolute;
+                                  top: 77.5%;
+                                  left: 24.5%;
+                                  height: 10%;
+                                  width: 2.5%;
+                                  background-image:url("images/Pin_Orange.png");
+                                  background-repeat: no-repeat;
+                                }
+
+                                /* Homepage: Pinnadel Nürnberg */
+
+                                .Pin_NÜR:link {
+                                  position: absolute;
+                                  top: 63%;
+                                  left: 22%;
+                                  height: 10%;
+                                  width: 2.5%;
+                                  background-image: url('images/Pin.png');
+                                  background-repeat: no-repeat;
+                                  }
+
+                                .Pin_NÜR:hover {
+                                    height: 10%;
+                                    width: 2.5%;
+                                    background-image:url("images/Pin_Orange.png");
+                                    background-repeat: no-repeat;
+                                  }
+
+                                  /* Homepage: Pinnadel Paderborn */
+
+                                  .Pin_PA:link {
+                                    position: absolute;
+                                    top: 36%;
+                                    left: 16.75%;
+                                    height: 10%;
+                                    width: 2.5%;
+                                    background-image: url('images/Pin.png');
+                                    background-repeat: no-repeat;
+                                    }
+
+                                  .Pin_PA:hover {
+                                      position: absolute;
+                                      top: 36%;
+                                      left: 16.75%;
+                                      height: 10%;
+                                      width: 2.5%;
+                                      background-image:url("images/Pin_Orange.png");
+                                      background-repeat: no-repeat;
+                                    }
+
+                                    /* Homepage: Pinnadel Rostock */
+
+                                    .Pin_RO:link {
+                                      position: absolute;
+                                      top: 7%;
+                                      left: 24%;
+                                      height: 10%;
+                                      width: 2.5%;
+                                      background-image: url('images/Pin.png');
+                                      background-repeat: no-repeat;
+                                      }
+
+                                    .Pin_RO:hover {
+                                        position: absolute;
+                                        top: 7%;
+                                        left: 24%;
+                                        height: 10%;
+                                        width: 2.5%;
+                                        background-image:url("images/Pin_Orange.png");
+                                        background-repeat: no-repeat;
+                                      }
+
+
+          /* Homepage: Textbox Contentbereich 1 */
+
+          .Logo_gr_t {
+            position: absolute;
+            left: 980px;
+            top: 56px;
+            font-family: 'Racing Sans One', cursive;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 50.4px;
+            display: flex;
+            align-items: center;
+            color: #10E6CD;
+          }
+
+          .Überschrift_Teaser_Standorte {
+            position: absolute;
+            font-family: 'Montserrat', normal;
+            font-weight: 800;
+            font-size: 30px;
+            line-height: 36.57px;
+            display: flex;
+            align-items: center;
+            color: #10E6CD;
+          }
+
+          .Teaser_Standorte {
+            position: absolute;
+            height: 110px;
+            width: 516px;
+            left: 980px;
+            top: 157px;
+            font-family: 'Montserrat', normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            display: flex;
+            align-items: center;
+            text-align: justify;
+            color: #FFFFFF;
+          }
+
+
+/* Homepage: Teaser der Autokategorien*/
+
+    .Contentbereich2_Homepage {
+      z-index: 2;
+      position: absolute;
+      width: 100%;
+      height: 600px;
+      top: 1558px;
+      background-color: #3C3C3C;
+    }
+
+      /* Teaser Kreise */
+
+      .Autokategorie{
+        position: absolute;
+        z-index:2;
+        top: 75%;
+        font-family: 'Montserrat', normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+      }
+
+      .Teaserkreis:link {
+        z-index:1;
+        position: absolute;
+        width: 14%;
+        height: 45%;
+        left: 3%;
+        top: 220px;
+        border: 1px;
+        border-color: #FFFFFF;
+        border-style: solid;
+        border-radius: 50%;
+      }
+
+        .Teaserkreis:hover {
+          z-index:1;
+          position: absolute;
+          width: 14%;
+          height: 45%;
+          left: 3%;
+          top: 220px;
+          background-color: #FFFFFF;
+          border: 1px;
+          border-color: #FFFFFF;
+          border-style: solid;
+          border-radius: 50%;
+        }
+
+        .Autokategorie:hover {
+          position: absolute;
+          z-index:3;
+          font-family: 'Montserrat', normal;
+          font-weight: 800;
+          font-size: 18px;
+          line-height: 17px;
+          display: flex;
+          align-items: center;
+          color: #262626;
+        }
+
+     .Teaserkreis:visited {
+          z-index:2;
+          position: absolute;
+          width: 200px;
+          height: 200px;
+          left: 3%;
+          top: 220px;
+          border: 1px;
+          border-color: #FFFFFF;
+          border-style: solid;
+          border-radius: 50%;
+        }
+
+        .Teaserkreis:active {
+          z-index:2;
+          position: absolute;
+          width: 200px;
+          height: 200px;
+          left: 3%;
+          top: 220px;
+          border: 1px;
+          border-color: #FFFFFF;
+          border-style: solid;
+          border-radius: 50%;
+        }
 
 /*Produktdetailseite*/
 .contentdetail{
