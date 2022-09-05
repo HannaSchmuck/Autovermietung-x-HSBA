@@ -126,7 +126,8 @@ a.logo{
     .footer_links{
     text-decoration: none;
     }
-    /*Alles was mit den Filtern zu tun hat*/
+    
+/*Produktübersichtsseite -> Alles was mit den Filtern zu tun hat*/
     .Filterbox{
     width: 95%;
     background: #3C3C3C;
@@ -142,16 +143,23 @@ a.logo{
 
     .filter{
         float: left;
-        margin-left: 27px;
+        margin-left: 2.109375%;
     }
 
     input[type=submit]{
-        width: 121px;
+        width: auto;
+        min-width: 9.453125%;
         height: 35px;
         box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.5);
         background-color: #EF5C21;
         border: none;
         border-radius: 3px; 
+        color: #ffffff;    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 20px;
     }
 
     input[type=date]{
@@ -177,8 +185,8 @@ a.logo{
         border: 1px solid black;
         border-radius: 3px;
         color: white;
-        height: 25px;
-            width: 25px;
+        height: 20px;
+        width: 20px;
     }
         
     select {
@@ -187,10 +195,21 @@ a.logo{
         background-color:rgba(217,217,217, 0.26);
         color: white;
         height: 35px;
+        padding-left: 1px;
+        padding-right: 1px;
     }
 
     option[value=""][disabled] {
       display: none;
+    }
+
+    label {
+        color: #ffffff;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
     }
 
     .dropbtn {
@@ -222,22 +241,21 @@ a.logo{
 
     .show {display: block;}
 
-    /*Hier werden die Buttons für das Zurücksetzen der Filter und der gesanten Auswahl zurückgesetzt */
+    /* Produktübersichtsseite -> Hier werden die Buttons für das Zurücksetzen der Filter und der gesamten Auswahl designt. Die Buttons sind extra in der Farbe des Hintergrundes und ohne Border, damit der Text wie ein normaler Link wirkt.*/
 
     .zurucksetzen_button {
         color: #ffffff;
-        background-color: #404040;
+        background-color: #3C3C3C;
         text-align: center;
         text-decoration: none;
         line-height: 22px;
         height: 35px;
-        border-radius: 3px;
         border: none;
     }
 
-    /*make buttons tourquise when hovering*/
-    .zurucksetzen_button:hover, .zurucksetzen_button:focus {
-      background-color: #10E6CD;
+    /*die Schriftart in den Button ändert sich auf türkis wenn man hovert*/
+    .zurucksetzen_button:hover{
+      color: #10E6CD;
     }
 
 
