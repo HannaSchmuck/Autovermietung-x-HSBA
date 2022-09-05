@@ -360,9 +360,67 @@ a.logo{
         padding: 15px 15px 15px 15px;
         }
 
-.buchungen_table {
-    height: 500px;
-}
+/*Die Tabelle auf der meine Buchungen Seite. Sie ist in einen immer gleich großen Div eingebettet*/
+    .buchungen_table_div {
+        width: 1178px;
+        background: #3C3C3C;
+        border-radius: 16px;
+        height: 494px;
+    } 
+
+     .tabelleninfos {
+            display: flex;
+            justify-content: space-between; 
+            padding-left: 10px;
+            padding-right: 10px;  
+        }
+        
+        .tabelleninfos_text{
+            color:#ffffff;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 20px
+        }
+        .buchungen_table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        .table_header {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 29px;
+            align-items: center;
+            color: #ffffff;
+            border-bottom: 3pt solid #10E6CD;
+            height: 65px;
+            padding-left: 10px;
+        }
+        
+        .table_content {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 20px;
+            line-height: 24px;
+            align-items: center;
+            color: #ffffff;
+            height: 65px;
+            padding-left: 5px;
+        }
+        
+        .table_img {
+            height: 65px;
+        }
+        
+        .buchungen_td {
+           padding-left: 5px;
+        }
+
 
 .logo{
     font-family: 'Racing Sans One', cursive;}
