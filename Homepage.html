@@ -5,6 +5,13 @@
   <link rel="stylesheet" href="stylesheet.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<style>
+  body, html {
+    height: 160%;
+    scroll-behavior: smooth;
+  }
+</style>
+
   <!-- Navigationsleiste -->
   <div class ="navigation">
       <a href="#Logo" class="logo"> carbon</a>
@@ -15,119 +22,179 @@
       </div>
   </div>
 </head>
+
 <body>
 
-  <!-- Background image with small filter on top -->
+  <!-- Hintergrundbild mit kleinem Filter -->
     <div class="parallax_1"> </div>
 
       <!-- kleiner Filter -->
       <div class="filter_klein">
 
-        <!-- Headline 1 -->
-          <div style="position: absolute; left: 49px; top: 20px; font-family: 'Montserrat'; font-style, normal; font-weight: 400; font-size: 12px; line-height: 15px; display: flex; align-items: center; color: #FFFFFF;">
+        <!-- Überschrift 1-->
+          <div class="Eine_Fahrt_Mit">
             Eine Fahrt mit </div>
-            <div style="position: absolute; left: 139px; top: 16px; font-family: 'Racing Sans One', cursive; font-weight: 400; font-size: 17px; line-height: 21px; display: flex; align-items: center; color: #FFFFFF;">
+            <div class="Logo_kl_w">
               carbon </div>
 
-        <!-- Headline 2 -->
-          <div style="position: absolute; left: 49px; top: 45px; font-family: 'Montserrat', normal; font-weight: 800; font-size: 40px; line-height: 54px; display: flex; align-items: center; color: #FFFFFF;">
-            Mit einem Klick zu Hause. </div>
+        <!-- Überschrift 2 (groß)-->
+          <div class="Klick_zu_Hause">
+            Mit einem Klick <br> zu Hause. </div>
 
         <!-- Filter Ort -->
-          <div style="position: absolute; left: 51.62px; top: 173px; font-family: 'Montserrat', normal; font-weight: 400; font-size: 12px; line-height: 15px; display: flex; align-items: center; color: #FFFFFF;">
+          <div class="Filterüberschrift_Ort">
               ORT </div>
 
-              <div class="filterbox_Ort" >
-                <div style="position: absolute; left: 49px; top: 10px; font-family: 'Montserrat'; font-style, normal; font-weight: 400; font-size: 12px; line-height: 15px; display: flex; align-items: center; justify-content: center; color: #FFFFFF;">
-                  Wo willst Du dein Auto abholen? </div>
-              </div>
+              <form method="post">
+                      <div style="position:absolute; left: 6%; top: 50%;" class="filter">
+                            <select class="Kalenderbox" name="" id="Stadt" style="width:183%">
+                                <option value="" disabled selected>Wo willst du dein Auto abholen?</option>
+                                <option class="option_filter" value="Berlin">Berlin</option>
+                                <option class="option_filter" value="Bielefeld">Bielefeld</option>
+                                <option class="option_filter" value="Bochum">Bochum</option>
+                                <option class="option_filter" value="Bremen">Bremen</option>
+                                <option class="option_filter" value="Dortmund">Dortmund</option>
+                                <option class="option_filter" value="Dresden">Dresden</option>
+                                <option class="option_filter" value="Freiburg">Freiburg</option>
+                                <option class="option_filter" value="Hamburg">Hamburg</option>
+                                <option class="option_filter" value="Köln">Köln</option>
+                                <option class="option_filter" value="Leipzig">Leipzig</option>
+                                <option class="option_filter" value="München">München</option>
+                                <option class="option_filter" value="Nürnberg">Nürnberg</option>
+                                <option class="option_filter" value="Paderborn">Paderborn</option>
+                                <option class="option_filter" value="Rostock">Rostock</option>
+                            </select>
+                      </div>
 
         <!-- Filter Datum -->
-
-          <div style="position: absolute; left: 51.62px; top: 250.46px; font-family: 'Montserrat', normal; font-weight: 400; font-size: 12px; line-height: 15px; display: flex; align-items: center; color: #FFFFFF;">
+          <div class="Filter_Datum_Von">
             VON </div>
-            <div class="filterbox_Datum" >
-            <div style="position: absolute; left: 49px; top: 10px; font-family: 'Montserrat'; font-style, normal; font-weight: 400; font-size: 12px; line-height: 15px; display: flex; align-items: center; justify-content: center; color: #FFFFFF;">
-            Datum </div>
-            </div>
-          <div style="position: absolute; left: 215px; top: 250.46px; font-family: 'Montserrat', normal; font-weight: 400; font-size: 12px; line-height: 15px; display: flex; align-items: center; color: #FFFFFF;">
+          <input class="Kalenderbox" style="position: absolute; left: 11%; top: 67%; width: 29%" type="date" name=" " id="Abholdatum" value="">
+
+          <div class="Filter_Datum_Bis">
             BIS </div>
-            <div class="Filterbox_Datum" style="left: 215px">
-            <div style="position: absolute; left: 49px; top: 10px; font-family: 'Montserrat'; font-style, normal; font-weight: 400; font-size: 12px; line-height: 15px; display: flex; align-items: center; justify-content: center; color: #FFFFFF;">
-            Datum </div>
-            </div>
+            <input class="Kalenderbox" style="position: absolute; left: 52.5%; top: 67%; width: 29%; font-family: 'Montserrat', normal;" type="date" name=" " id="Rückgabedatum" value="">
 
         <!-- Button "Auf geht's!" -->
 
         <button class="button_aufgehts button_aufgehts_1">
-          <div style="position: absolute; width: 90px; height: 20px; left: 16px; top: 7px;
-                  font-family: 'Montserrat'; font-style: normal; font-weight: 800; font-size: 16px; line-height: 20px;display: flex;
-                  align-items: center; color: #FFFFFF">
-                  Auf geht's </div>
+        <div class="auf_gehts_Home">auf geht's!</div>
         </button>
 
       </div>
 
+      <!-- Sprungmarke für den Link "Locations" aus der Navigationsleiste -->
+      <div id="Locations">
+      </div>
+
+      <!-- Standortübersicht in Deutschland -->
+
       <div class="Contentbereich1_Homepage">
+
         <div>
-        <!-- <img src="images/Deutschlandkarte.png" alt="Deutschlandkarte" style="position: absolute; left:216px; right:646px; height:560px; weight: 420px;"> -->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5131526.917854283!2d5.9692252276088835!3d51.096865486635586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479a721ec2b1be6b%3A0x75e85d6b8e91e55b!2sDeutschland!5e0!3m2!1sde!2sde!4v1661803944522!5m2!1sde!2sde" style="width:50%; height:600px; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <img src="images/Deutschlandkarte.png" alt="Deutschlandkarte" style="position: absolute; top: 16px; left:216px; right:646px; height:560px; weight: 420px;">
+          <a class="Pin_BER" href="#">
+          </a>
+          <a class="Pin_BI" href="#">
+          </a>
+          <a class="Pin_BO" href="#">
+          </a>
+          <a class="Pin_BR" href="#">
+          </a>
+          <a class="Pin_DO" href="#">
+          </a>
+          <a class="Pin_DR" href="#">
+          </a>
+          <a class="Pin_FR" href="#">
+          </a>
+          <a class="Pin_HH" href="#">
+          </a>
+          <a class="Pin_KÖLN" href="#">
+          </a>
+          <a class="Pin_LEI" href="#">
+          </a>
+          <a class="Pin_MÜN" href="#">
+          </a>
+          <a class="Pin_NÜR" href="#">
+          </a>
+          <a class="Pin_PA" href="#">
+          </a>
+          <a class="Pin_RO" href="#">
+          </a>
         </div>
-       <!-- Headline -->
+
+       <!--  Überschrift Textbox -->
+
         <div style="position: absolute; left: 980px; top: 56px; font-family: 'Racing Sans One', cursive; font-weight: 400; font-size: 40px; line-height: 50.4px; display: flex; align-items: center; color: #10E6CD;">
-          carbon </div>
-          <div style="position: absolute; left: 1120px; top: 67px; font-family: 'Montserrat', normal; font-weight: 800; font-size: 30px; line-height: 36.57px; display: flex; align-items: center; color: #10E6CD;">
-            PREMIUM MIETWAGEN </div>
-            <div style="position: absolute; left: 980px; top: 107px; font-family: 'Montserrat', normal; font-weight: 800; font-size: 30px; line-height: 36.57px; display: flex; align-items: center; color: #10E6CD;">
-              DEUTSCHLANDWEIT VERFÜGBAR </div>
-           <!-- Text -->
-         <div style="position: absolute; height: 110px; width: 516px; left: 980px; top: 157px; font-family: 'Montserrat', normal; font-weight: 400; font-size: 16px; line-height: 20px; display: flex; align-items: center; text-align: justify; color: #FFFFFF;">
-           Bei uns kannst in 14 Standorten die unterschiedlichsten Modelle auswählen. Jeder Standort verfügt über mehr als 15 Autos, von welchen du deine liebste Wahl dort buchst, abholst und zu guter letzt im gleichen Standort wieder abgibst.
-           Gemietet wird für mindestens einen Tag. </div>
-     </div>
+         carbon
+       </div>
+       <div class="Überschrift_Teaser_Standorte" style="left: 1120px; top: 67px;">
+         PREMIUM MIETWAGEN
+       </div>
+       <div class="Überschrift_Teaser_Standorte" style="left: 980px; top: 107px;">
+         DEUTSCHLANDWEIT VERFÜGBAR
+       </div>
+
+           <!-- Text Textbox -->
+
+        <div class="Teaser_Standorte">
+          Bei uns kannst in 14 Standorten die unterschiedlichsten Modelle auswählen. Jeder Standort verfügt über mehr als 15 Autos, von welchen du deine liebste Wahl dort buchst, abholst und zu guter letzt im gleichen Standort wieder abgibst.
+          Gemietet wird für mindestens einen Tag. </div>
+        </div>
 
      <br>
-     
+
+     <!-- Teaser der Autokategorien -->
 
      <div class="Contentbereich2_Homepage">
+
+     <!-- Überschrift -->
+
        <div style="position: absolute; left: 49px; top: 56px; font-family: 'Montserrat', normal; font-weight: 800; font-size: 40px; line-height: 54px; display: flex; align-items: center; color: #FFFFFF;">
-       Wonach ist dir heute? </div>
-
-       <div class="Teaserkreis">
+         Wonach ist dir heute?
        </div>
-       <!-- <img src="images/auto.png" style="position: absolute; left: 4.53%; top: 45%;"> -->
-       <div style="position: absolute; left: 5%; top: 75%; font-family: 'Montserrat'; font-style, normal; font-weight: 800; font-size: 18px; line-height: 17px; display: flex; align-items: center; color: #FFFFFF;">
-         Sportwagen </div>
 
-       <div class="Teaserkreis" style="left:20%">
-       </div>
-       <!-- <img src="images/auto.png" style="position: absolute; left: 21.58%; top: 45%;"> -->
-       <div style="position: absolute; left: 22.8%; top: 75%; font-family: 'Montserrat'; font-style, normal; font-weight: 800; font-size: 18px; line-height: 17px; display: flex; align-items: center; color: #FFFFFF;">
-          Cabriolet </div>
+        <a class="Teaserkreis" href="#">
+            <img src="images/auto.png" style="position: absolute; z-index: 2; left: 15%; top: 25%;">
+            <div class="Autokategorie" style="left: 38%;">
+              Coupé
+            </div>
+        </a>
 
-       <div class="Teaserkreis" style="left:37%">
-       </div>
-       <!-- <img src="images/auto.png" style="position: absolute; left: 38.54%; top: 45%;"> -->
-       <div style="position: absolute; left: 41%; top: 75%; font-family: 'Montserrat'; font-style, normal; font-weight: 800; font-size: 18px; line-height: 17px; display: flex; align-items: center; color: #FFFFFF;">
-         SUV </div>
+        <a class="Teaserkreis" style="left:19%" href="#">
+            <img src="images/auto.png" style="position: absolute; z-index: 2; left: 15%; top: 25%;">
+            <div class="Autokategorie" style="left: 32%;">
+              Cabriolet
+            </div>
+        </a>
 
-       <div class="Teaserkreis" style="left:54%">
-       </div>
-       <!-- <img src="images/auto.png" style="position: absolute; left: 55.54%; top: 45%;"> -->
-       <div style="position: absolute; left: 56.7%; top: 75%; font-family: 'Montserrat'; font-style, normal; font-weight: 800; font-size: 18px; line-height: 17px; display: flex; align-items: center; color: #FFFFFF;">
-       Limousine </div>
+        <a class="Teaserkreis" style="left:35%" href="#">
+            <img src="images/auto.png" style="position: absolute; z-index: 2; left: 15%; top: 25%;">
+            <div class="Autokategorie" style="left: 42%;">
+              SUV
+            </div>
+        </a>
 
-       <div class="Teaserkreis" style="left:71%">
-       </div>
-       <!-- <img src="images/auto.png" style="position: absolute; left: 72.53%; top: 45%;"> -->
-       <div style="position: absolute; left: 74.5%; top: 75%; font-family: 'Montserrat'; font-style, normal; font-weight: 800; font-size: 18px; line-height: 17px; display: flex; align-items: center; color: #FFFFFF;">
-        Kombi </div>
+        <a class="Teaserkreis" style="left:51%" href="#">
+            <img src="images/auto.png" style="position: absolute; z-index: 2; left: 15%; top: 25%;">
+            <div class="Autokategorie" style="left: 31%;">
+              Limousine
+            </div>
+        </a>
 
-       <div class="Teaserkreis" style="left:87%">
-       </div>
-       <!-- <img src="images/auto.png" style="position: absolute; left: 88.53%; top: 45%;"> -->
-       <div style="position: absolute; left: 91.2%; top: 75%; font-family: 'Montserrat'; font-style, normal; font-weight: 800; font-size: 18px; line-height: 17px; display: flex; align-items: center; color: #FFFFFF;">
-        Van </div>
+       <a class="Teaserkreis" style="left:67%" href="#">
+            <img src="images/auto.png" style="position: absolute; z-index: 2; left: 15%; top: 25%;">
+            <div class="Autokategorie" style="left: 36.5%;">
+              Kombi
+            </div>
+        </a>
+
+        <a class="Teaserkreis" style="left:83%" href="#">
+          <img src="images/auto.png" style="position: absolute; z-index: 2; left: 15%; top: 27%;">
+          <div class="Autokategorie" style="left: 43%;">
+              Van
+          </div>
+        </a>
 
      </div>
 
