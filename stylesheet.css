@@ -242,23 +242,38 @@ a.logo{
 
     .show {display: block;}
 
-    /* Produktübersichtsseite -> Hier werden die Buttons für das Zurücksetzen der Filter und der gesamten Auswahl designt. Die Buttons sind extra in der Farbe des Hintergrundes und ohne Border, damit der Text wie ein normaler Link wirkt.*/
+   /* Produktübersichtsseite_initiel -> Hier wird das Begrüßungsbild, sowie der Text auf dem Begrüßeungsbild designt*/
+      .content_car_background {
+            background-image: url(street_background.jpg);
+            height: 740px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .ubersicht_text {
+            margin: auto;
+            width: 600px;
+            text-align: center;
+            color: #ffffff;
+            font-size: 40px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600; 
+        }
 
-    .zurucksetzen_button {
+        /* Produktübersichtsseite -> Hier werden die Links für das Zurücksetzen der Filter und der gesamten Auswahl designt.*/
+
+        a.zurucksetzen {
         color: #ffffff;
-        background-color: #3C3C3C;
-        text-align: center;
         text-decoration: none;
-        line-height: 22px;
-        height: 35px;
-        border: none;
-    }
-
-    /*die Schriftart in den Button ändert sich auf türkis wenn man hovert*/
-    .zurucksetzen_button:hover{
-      color: #10E6CD;
-    }
-
+        font-family: "Montserrat", sans-serif;
+        font-size: 13px;
+        line-height: 35px;
+        }
+        
+        .zurucksetzen:hover{
+            color: #10E6CD;
+        }
 
 
 /*Die Registerkarten*/
