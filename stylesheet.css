@@ -400,6 +400,7 @@ a.logo{
 .content_car{
         width: 95%;
         height: auto;
+        min-height: 600px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
