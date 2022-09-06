@@ -131,7 +131,7 @@ a.logo{
     social_media {
         width: auto;
     }
-    
+
 /*Produktübersichtsseite -> Alles was mit den Filtern zu tun hat*/
     .Filterbox{
     width: 95%;
@@ -158,8 +158,8 @@ a.logo{
         box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.5);
         background-color: #EF5C21;
         border: none;
-        border-radius: 3px; 
-        color: #ffffff;    
+        border-radius: 3px;
+        color: #ffffff;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 800;
@@ -169,7 +169,7 @@ a.logo{
 
 /*Hier wird festgelegt, dass der Button die Farbe ändert, wenn man hovert,*/
     .input_submit:hover{
-        background-color: #bf400d;    
+        background-color: #bf400d;
     }
 
     input[type=date]{
@@ -189,7 +189,7 @@ a.logo{
         border-radius: 3px;
         color: white;
     }
-    
+
      input[type=checkbox]{
         background-color: rgba(217,217,217, 0.26);
         border: 1px solid black;
@@ -198,7 +198,7 @@ a.logo{
         height: 20px;
         width: 20px;
     }
-        
+
     select {
         border: 1px solid black;
         border-radius: 3px;
@@ -253,15 +253,17 @@ a.logo{
 
     .show {display: block;}
 
-   /* Produktübersichtsseite_initiel -> Hier wird das Begrüßungsbild, sowie der Text auf dem Begrüßeungsbild designt*/
+   /* Produktübersichtsseite_initial -> Hier wird das Begrüßungsbild, sowie der Text auf dem Begrüßeungsbild designt*/
       .content_car_background {
-            background-image: url(street_background.jpg);
+            background-image: url(images/street_background.jpg);
+            background-position: center;
+            background-size: cover;
             height: 740px;
             display: flex;
             justify-content: center;
             align-items: center;
         }
-        
+
         .ubersicht_text {
             margin: auto;
             width: 600px;
@@ -269,7 +271,7 @@ a.logo{
             color: #ffffff;
             font-size: 40px;
             font-family: "Montserrat", sans-serif;
-            font-weight: 600; 
+            font-weight: 600;
         }
 
         /* Produktübersichtsseite -> Hier werden die Links für das Zurücksetzen der Filter und der gesamten Auswahl designt.*/
@@ -281,20 +283,20 @@ a.logo{
         font-size: 13px;
         line-height: 35px;
         }
-        
+
         .zurucksetzen:hover{
             color: #10E6CD;
         }
-        
+
         /* Produktübersichtsseite ->Hier wird die Paging funktion designt*/
         .ergebnisinfos {
             display: flex;
-            justify-content: space-between; 
+            justify-content: space-between;
             padding-left: 10px;
-            padding-right: 10px; 
+            padding-right: 10px;
             width: 100%;
         }
-        
+
         .ergebnisinfos_text{
             color:#ffffff;
             font-family: 'Montserrat';
@@ -303,14 +305,14 @@ a.logo{
             font-size: 16px;
             line-height: 20px
         }
-    
+
         .paging_button_produktubersicht {
         color: #ffffff;
         text-decoration: none;
         font-family: "Montserrat", sans-serif;
         font-size: 16px;
         }
-    
+
         .paging_button_produktubersicht:hover{
             color: #10E6CD;
         }
@@ -326,7 +328,7 @@ a.logo{
         margin: 2% 1% 2% 1%;
         padding: 10px 10px 10px 10px;
     }
-    
+
     .car_img {
         width: 218px;
         height:  111px;
@@ -338,7 +340,7 @@ a.logo{
         width: 100%;
         height: 100%;
         }
-    
+
     .autoname {
         font-family: 'Montserrat';
         font-style: normal;
@@ -357,7 +359,7 @@ a.logo{
         font-size: 14px;
         line-height: 17px;
         color: #ffffff;
-        margin-left: 22px;  
+        margin-left: 22px;
         }
 
     .anzahl {
@@ -427,15 +429,15 @@ a.logo{
         background: #3C3C3C;
         border-radius: 16px;
         height: 400px;
-    } 
+    }
 
      .tabelleninfos {
             display: flex;
-            justify-content: space-between; 
+            justify-content: space-between;
             padding-left: 10px;
-            padding-right: 10px;  
+            padding-right: 10px;
         }
-        
+
         .tabelleninfos_text{
             color:#ffffff;
             font-family: 'Montserrat';
@@ -460,7 +462,7 @@ a.logo{
             border-collapse: collapse;
             width: 100%;
         }
-        
+
         .table_header {
             font-family: 'Montserrat';
             font-style: normal;
@@ -473,7 +475,7 @@ a.logo{
             height: 65px;
             padding-left: 10px;
         }
-        
+
         .table_content {
             font-family: 'Montserrat';
             font-style: normal;
@@ -485,11 +487,11 @@ a.logo{
             height: 65px;
             padding-left: 5px;
         }
-        
+
         .table_img {
             height: 65px;
         }
-        
+
         .buchungen_td {
            padding-left: 10px;
         }
