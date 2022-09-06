@@ -319,7 +319,7 @@ a.logo{
 
 /*Die Registerkarten*/
     .car {
-        width: 278px;
+        width: 21.875%;
         height: 303px;
         background-color:#b3b3b3;
         border-radius: 16px;
@@ -327,6 +327,8 @@ a.logo{
         float: left;
         margin: 2% 1% 2% 1%;
         padding: 10px 10px 10px 10px;
+        display: flex;
+        justify-content: center;
     }
 
     .car_img {
