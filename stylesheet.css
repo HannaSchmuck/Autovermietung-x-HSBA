@@ -1362,8 +1362,11 @@ i{font-size: 20px;}
 
 .buttonorange_b:hover {
   background: #bf400d;
-  box-shadow: 2px 0px 2px 3px rgba(255, 255, 255, 0.4);
-  border-radius: 3px;
+ border-top-left-radius: 3px;
+      border-top-right-radius: 3px;
+      border-bottom-left-radius: 3px;
+      border-bottom-right-radius: 3px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
   color: white;
 }
 
@@ -1405,8 +1408,11 @@ i{font-size: 20px;}
 
 .hinweis_b:hover{
   background: #cccccc;
-  box-shadow: 2px 0px 2px 3px rgba(255, 255, 255, 0.4);
-  border-radius: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
   color: #262626;
 }
 
