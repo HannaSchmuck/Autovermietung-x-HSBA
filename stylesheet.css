@@ -367,7 +367,7 @@ a.logo{
         margin-top: 10px;
         }
 
-    .preis {
+    .ubersicht_preis {
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 800;
@@ -378,7 +378,7 @@ a.logo{
         margin-top: 11px;
         }
 
-    .gesamtpreis {
+    .ubersicht_gesamtpreis {
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
