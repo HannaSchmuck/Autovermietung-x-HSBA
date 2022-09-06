@@ -499,9 +499,6 @@ a.logo{
 .logo{
     font-family: 'Racing Sans One', cursive;}
 
-
-/* Style für die Homepage */
-
 /* Homepage: Dynamisches Element 1 - Festes Hintergrundbild scrollender Text */
 
       .parallax_1 {
@@ -1087,7 +1084,7 @@ a.logo{
           height: 45%;
           left: 3%;
           top: 220px;
-          background-color: #FFFFFF;
+          background-color: #d9d9d9;
           border: 1px;
           border-color: #FFFFFF;
           border-style: solid;
@@ -1107,10 +1104,10 @@ a.logo{
         }
 
      .Teaserkreis:visited {
-          z-index:2;
+          z-index:1;
           position: absolute;
-          width: 200px;
-          height: 200px;
+          width: 14%;
+          height: 45%;
           left: 3%;
           top: 220px;
           border: 1px;
@@ -1120,10 +1117,10 @@ a.logo{
         }
 
         .Teaserkreis:active {
-          z-index:2;
+          z-index:1;
           position: absolute;
-          width: 200px;
-          height: 200px;
+          width: 14%;
+          height: 45%;
           left: 3%;
           top: 220px;
           border: 1px;
@@ -1131,6 +1128,7 @@ a.logo{
           border-style: solid;
           border-radius: 50%;
         }
+
 
 /*Produktdetailseite*/
 .contentdetail{
