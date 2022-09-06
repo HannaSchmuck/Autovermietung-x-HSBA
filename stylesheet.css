@@ -1361,7 +1361,7 @@ i{font-size: 20px;}
 }
 
 .buttonorange_b:hover {
-  background: #EF5C21;
+  background: #bf400d;
   box-shadow: 2px 0px 2px 3px rgba(255, 255, 255, 0.4);
   border-radius: 3px;
   color: white;
@@ -1404,7 +1404,7 @@ i{font-size: 20px;}
 }
 
 .hinweis_b:hover{
-  background: #ffffff;
+  background: #cccccc;
   box-shadow: 2px 0px 2px 3px rgba(255, 255, 255, 0.4);
   border-radius: 3px;
   color: #262626;
