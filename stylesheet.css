@@ -398,12 +398,31 @@ a.logo{
         margin: auto;
         }
 
+/* content auf der Meine_Buchungen Seite */
+.content_meineBuchungen {
+    width: 1178px;
+    margin: auto;
+}
+
+/*Die Überschrift über der Tabelle auf der meine Buchungen Seite*/
+.meineBuchungen_uberschrift {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    color: #ffffff;
+}
+
 /*Die Tabelle auf der meine Buchungen Seite. Sie ist in einen immer gleich großen Div eingebettet*/
     .buchungen_table_div {
         width: 1178px;
         background: #3C3C3C;
         border-radius: 16px;
-        height: 494px;
+        height: 400px;
     } 
 
      .tabelleninfos {
@@ -421,7 +440,7 @@ a.logo{
             font-size: 16px;
             line-height: 20px
         }
-    
+
         .paging_button {
         color: #ffffff;
         text-decoration: none;
@@ -429,7 +448,6 @@ a.logo{
         font-size: 16px;
         line-height: 35px;
         }
-
         .paging_button:hover{
             color: #10E6CD;
         }
@@ -469,8 +487,9 @@ a.logo{
         }
         
         .buchungen_td {
-           padding-left: 5px;
+           padding-left: 10px;
         }
+
 
 
 .logo{
