@@ -411,6 +411,7 @@ a.logo{
 .content_meineBuchungen {
     width: 1178px;
     margin: auto;
+    min-height: 730px;
 }
 
 /*Die Überschrift über der Tabelle auf der meine Buchungen Seite*/
@@ -473,6 +474,7 @@ a.logo{
             font-size: 24px;
             line-height: 29px;
             align-items: center;
+            text-align: center;
             color: #ffffff;
             border-bottom: 3pt solid #10E6CD;
             height: 65px;
@@ -485,14 +487,16 @@ a.logo{
             font-weight: 400;
             font-size: 20px;
             line-height: 24px;
-            align-items: center;
+            align-content: center;
+            text-align: center;
             color: #ffffff;
             height: 65px;
             padding-left: 5px;
         }
 
         .table_img {
-            height: 65px;
+            height: 100%;
+            align-self: center;
         }
 
         .buchungen_td {
