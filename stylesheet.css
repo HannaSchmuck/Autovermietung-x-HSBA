@@ -163,6 +163,11 @@ a.logo{
         line-height: 20px;
     }
 
+/*Hier wird festgelegt, dass der Button die Farbe ändert, wenn man hovert,*/
+    .input_submit:hover{
+        background-color: #bf400d;    
+    }
+
     input[type=date]{
         width: 121px;
         height: 35px;
