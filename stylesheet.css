@@ -281,7 +281,35 @@ a.logo{
         .zurucksetzen:hover{
             color: #10E6CD;
         }
-
+        
+        /* Produktübersichtsseite ->Hier wird die Paging funktion designt*/
+        .ergebnisinfos {
+            display: flex;
+            justify-content: space-between; 
+            padding-left: 10px;
+            padding-right: 10px; 
+            width: 100%;
+        }
+        
+        .ergebnisinfos_text{
+            color:#ffffff;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 20px
+        }
+    
+        .paging_button_produktubersicht {
+        color: #ffffff;
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        }
+    
+        .paging_button_produktubersicht:hover{
+            color: #10E6CD;
+        }
 
 /*Die Registerkarten*/
     .car {
