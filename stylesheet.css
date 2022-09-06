@@ -127,6 +127,10 @@ a.logo{
     .footer_links{
     text-decoration: none;
     }
+
+    social_media {
+        width: auto;
+    }
     
 /*Produktübersichtsseite -> Alles was mit den Filtern zu tun hat*/
     .Filterbox{
