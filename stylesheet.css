@@ -1206,7 +1206,7 @@ img{
     border-bottom: 1px solid #10E6CD;
     line-height: 21px;
     display:flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     color: #FFFFFF;
     vertical-align: middle;
@@ -1237,13 +1237,13 @@ img{
     height: 61px;
     position: absolute;
     left: 10%;
-    top: 25%;
+    top: 23%;
     border-bottom: 1px solid #10E6CD;
     font-size: 14px;
     line-height: 17px;
     color: #FFFFFF;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -1301,7 +1301,7 @@ img{
     line-height: 17px;
     color:#ffffff;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
