@@ -1281,6 +1281,15 @@ img{
   color: #10E6CD;
 }
 
+.weißterTabellencontent {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  justify-content: start;
+  align-items: start;
+  color: #FFFFFF;
+}
+
 .zeile3{
     width: 550px;
     height: 110px;
