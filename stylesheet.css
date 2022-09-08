@@ -2302,10 +2302,11 @@ left: 6%;
         background-color: #bf400d;}
 
 /*Buchung erfolgreich Bild */
-
-.Buchung_erfolgreich_img, .Buchung_erfolgreich_Bild{
-width: 100%;
-height: 100%;
-float: left;
-position: absolute;
+.Buchung_erfolgreich_img {}
+.Buchung_erfolgreich_Bild{
+height: 800px;
+background-image: url("images/carbon_handy.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
