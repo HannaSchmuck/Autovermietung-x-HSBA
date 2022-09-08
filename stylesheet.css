@@ -1581,18 +1581,6 @@ a.logo{
           border-radius: 50%;
         }
 
-        .Autokategorie:hover {
-          position: absolute;
-          z-index:3;
-          font-family: 'Montserrat', normal;
-          font-weight: 800;
-          font-size: 18px;
-          line-height: 17px;
-          display: flex;
-          align-items: center;
-          color: #262626;
-        }
-
      .Teaserkreis:visited {
           z-index:1;
           position: absolute;
