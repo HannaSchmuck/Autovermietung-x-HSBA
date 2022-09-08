@@ -332,6 +332,10 @@ a.logo{
         justify-content: center;
     }
 
+    .produktuebersicht_link {
+      text-decoration: none;
+    }
+
     .car_img {
         width: 218px;
         height:  111px;
