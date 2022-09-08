@@ -1758,6 +1758,10 @@ img{
   color: #FFFFFF;
 }
 
+.detail_menge {
+    padding-left: 30px;
+}
+
 .zeile3{
     width: 550px;
     height: 110px;
