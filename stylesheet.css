@@ -79,7 +79,8 @@ a.logo{
     height: 174px; 
     float: left; 
     background-color: #262626; 
-    float: left; 
+    float: left;
+    padding: 1% 1% 1% 1%;
     }
 
     .footer_text {
@@ -2009,6 +2010,10 @@ i{font-size: 20px;}
   display: flex;
   align-items: center;
   color: #FFFFFF;
+}
+
+.platzhalter {
+    height: 100px;
 }
 
 /* Das ist der CSS Abschnitt für die Login-Seite */
