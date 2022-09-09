@@ -33,7 +33,7 @@ $error_message = "Incorrect Email or Password!!!";
 <style>
     body, html {height:100%;}
     div.wrap {height:100%; overflow:hidden;}
-    <!-- body {overflow: hidden; } -->
+    body {overflow: hidden; }
 </style>
 
   </head>
@@ -43,21 +43,21 @@ $error_message = "Incorrect Email or Password!!!";
     <meta charset="UTF-8">
     <link rel="stylesheet" href="stylesheet.css">
     <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
 
 
       <div class ="navigation">
-          <a href="Homepage.html" class="logo"> carbon</a>
+          <a href="#Logo" class="logo"> carbon</a>
           <div class="navigation_links">
-              <a href="Homepage.html#Locations" class="normal"> Locations</a>
-              <a href="Produktuebersicht-initial.html" class="normal"> Rent</a>
-              <a href="Log-In.html" class="normal"> <img class="anmelden_img" src="images/Anmelden.png"> </a>
+              <a href="#Locations" class="normal"> Locations</a>
+              <a href="#rent" class="normal"> Rent</a>
+              <a href="#einloggen" class="normal"> Einloggen</a>
           </div>
 
       </div>
 
 
-  <div class= "Login_bild" > <img src="images/carbon_handy.png" class="login_img">
+  <div class= "Login_bild" > <img src="Images/carbon_handy.png" class="login_img">
 </div>
 
   <div class= "login_box">
@@ -65,7 +65,7 @@ $error_message = "Incorrect Email or Password!!!";
 <div class="Login_row">
 <div class="col-lg-10">
 <div class="Login_page_header">
-<span> Anmelden, <b> carbon </b> mieten und losfahren. </span>
+<span class="Anmelden_Text_Login"> Anmelden, </span> <span class="Logo_Text_Login"> carbon </span> <span class="Text_2_Login"> mieten und losfahren. </span>
 
 <span class="text-danger"><?php if (isset($error_message)) echo $error_message; ?></span>
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>
@@ -94,9 +94,5 @@ $error_message = "Incorrect Email or Password!!!";
 </div>
 </div>
 </div>
-</div>
-
-
-
 </body>
 </html>
