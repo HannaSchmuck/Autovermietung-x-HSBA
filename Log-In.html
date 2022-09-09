@@ -30,28 +30,27 @@ $error_message = "Incorrect Email or Password!!!";
 
   <head>
 
-<style>
-    body, html {height:100%;}
-    div.wrap {height:100%; overflow:hidden;}
-    body {overflow: hidden; }
-</style>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        body, html {height:100%;}
+        div.wrap {height:100%; overflow:hidden;}
+        body {overflow: hidden; }
+    </style>
 
   </head>
 
   <body>
 
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="stylesheet.css">
-    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
-
-
       <div class ="navigation">
-          <a href="#Logo" class="logo"> carbon</a>
+          <a href="Homepage.html" class="logo"> carbon</a>
           <div class="navigation_links">
-              <a href="#Locations" class="normal"> Locations</a>
-              <a href="#rent" class="normal"> Rent</a>
-              <a href="#einloggen" class="normal"> Einloggen</a>
+              <a href="Homepage.html#Locations" class="normal"> Locations</a>
+              <a href="Produktübersicht_initial.html" class="normal"> Rent</a>
+              <a href="Log-In.html" class="normal"> <img class="anmelden_img" src="images/Anmelden.png"> </a>
           </div>
 
       </div>
@@ -60,12 +59,16 @@ $error_message = "Incorrect Email or Password!!!";
   <div class= "Login_bild" > <img src="Images/carbon_handy.png" class="login_img">
 </div>
 
-  <div class= "login_box">
+<div class= "login_box">
 <div class="Login_container">
 <div class="Login_row">
 <div class="col-lg-10">
 <div class="Login_page_header">
-<span class="Anmelden_Text_Login"> Anmelden, </span> <span class="Logo_Text_Login"> carbon </span> <span class="Text_2_Login"> mieten und losfahren. </span>
+<br>
+<span class="Anmelden_Text_Login"> Anmelden, </span> <span class="Logo_Text_Login"> carbon </span> <span class="Text_2_Login"> mieten <br> und losfahren. </span>
+
+<br>
+<br>
 
 <span class="text-danger"><?php if (isset($error_message)) echo $error_message; ?></span>
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>
@@ -75,7 +78,7 @@ $error_message = "Incorrect Email or Password!!!";
 <span class="text-danger"><?php if (isset($email_error)) echo $email_error; ?></span>
 </div>
 <div class="form-group">
-
+<br>
 <input type="password" name="password" placeholder = "Passwort" class="form_control_password" value="" maxlength="" required="8">
 <span class="text-danger"><?php if (isset($password_error)) echo $password_error; ?></span>
 </div>
