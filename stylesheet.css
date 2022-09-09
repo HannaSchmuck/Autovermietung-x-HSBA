@@ -1542,6 +1542,19 @@ a.logo{
         background-color: #3C3C3C;
         }
 
+      .Überschricht_Tagesform {
+        position: absolute;
+        left: 49px;
+        top: 56px;
+        font-family: 'Montserrat', normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 54px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+      }
+
                 /* Homepage: Teaser der Autokategorien*/
                 /* Teaser Kreise */
 
@@ -1569,6 +1582,8 @@ a.logo{
                   border-color: #FFFFFF;
                   border-style: solid;
                   border-radius: 50%;
+                  display: flex;
+                  align-items: center;
                   }
 
                   .Teaserkreis:hover {
@@ -1583,9 +1598,11 @@ a.logo{
                     border-color: #FFFFFF;
                     border-style: solid;
                     border-radius: 50%;
+                    display: flex;
+                    align-items: center;
                   }
 
-               .Teaserkreis:visited {
+                  .Teaserkreis:visited {
                     z-index:1;
                     position: absolute;
                     width: 14%;
@@ -1596,6 +1613,8 @@ a.logo{
                     border-color: #FFFFFF;
                     border-style: solid;
                     border-radius: 50%;
+                    display: flex;
+                    align-items: center;
                   }
 
                   .Teaserkreis:active {
@@ -1609,8 +1628,18 @@ a.logo{
                     border-color: #FFFFFF;
                     border-style: solid;
                     border-radius: 50%;
+                    display: flex;
+                    align-items: center;
                   }
 
+              /* Bilder in den Teaserkreisen */
+
+                  .Teaserbild_Homepage {
+                    position: relative;
+                    top: 0%;
+                    left: 4%;
+                    width: 90%;
+                  }
 
 /*Produktdetailseite*/
 .contentdetail{
