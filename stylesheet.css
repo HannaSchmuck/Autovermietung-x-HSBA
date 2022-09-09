@@ -2066,7 +2066,6 @@ i{font-size: 20px;}
 .platzhalter {
     height: 100px;
 }
-
 /* Das ist der CSS Abschnitt für die Login-Seite */
 
 /*login Bild*/
@@ -2321,7 +2320,11 @@ left: 6%;
   box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.5);
   border-radius: 3px;
   transition-duration: 0.4s;
-  cursor: pointer
+  cursor: pointer;
+  text-align: center;
+  line-height: 32px;
+   text-decoration: none;
+
 }
 
 .Buchungsübersicht_Button {
@@ -2337,7 +2340,10 @@ left: 6%;
   box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.5);
   border-radius: 3px;
   transition-duration: 0.4s;
-  cursor: pointer
+  cursor: pointer;
+  text-align: center;
+    line-height: 32px;
+ text-decoration: none;
 }
 
 .weiter_stöbern_Button {
@@ -2352,12 +2358,20 @@ left: 6%;
   .Buchungsübersicht_Button:hover {
         background-color: #bf400d;}
 
+
+
 /*Buchung erfolgreich Bild */
-.Buchung_erfolgreich_img {}
+
 .Buchung_erfolgreich_Bild{
-height: 800px;
-background-image: url("images/carbon_handy.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+width: 100%;
+height: 100%;
+position: absolute;
+}
+
+.Buchung_erfolgreich_img {
+background-size: cover;
+height: 100%;
+width: 100%;
+position: absolute;
+
 }
