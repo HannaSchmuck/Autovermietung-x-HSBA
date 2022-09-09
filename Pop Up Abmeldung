@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+  </head>
+
+  <body>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+<div class="Logout" onclick="myFunction()"> Logout here
+
+
+<div class="Logout_popup_Box" id="myPopup">
+  <div class="Überschrift_Logout"> Vielen Dank für deinen Besuch. </div>
+  <br>
+  <div class="Text_1_Logout"> Du wurdest erfolgreich abgemeldet. </div>
+  <br>
+<div class="Text_2_Logout"> Logge Dich erneut ein, um weitere Autos zu mieten und deine Buchungen zu verwalten </div>
+<div class="Text_3_Logout"> <span class="Text_3_Logout"> Wir freuen uns, wenn Du erneut bei </span>
+  <span class="Text_3_Logout_Logo">carbon </span> <span class="Text_3_Logout"> vorbeischaust </span></div>
+</div>
+
+
+
+
+    <script>
+    // When the user clicks on div, open the popup
+    function myFunction() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
+    }
+    </script>
+
+
+    </body>
+    </html>
