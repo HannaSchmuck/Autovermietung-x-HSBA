@@ -66,19 +66,19 @@ a.logo{
 
 /*Der Footer wird hier designt*/
      .footer {
-    width: 100%; 
-    height: 174px; 
-    float: left; 
-    background-color: #262626; 
+    width: 100%;
+    height: 174px;
+    float: left;
+    background-color: #262626;
     display: flex;
     justify-content: space-between;
     }
-    
+
     .footer_box{
-    width: 20%; 
-    height: 174px; 
-    float: left; 
-    background-color: #262626; 
+    width: 20%;
+    height: 174px;
+    float: left;
+    background-color: #262626;
     float: left;
     padding: 1% 1% 1% 1%;
     }
@@ -515,6 +515,8 @@ a.logo{
 .logo{
     font-family: 'Racing Sans One', cursive;}
 
+/* Style für die Homepage */
+
 /* Homepage: Dynamisches Element 1 - Festes Hintergrundbild scrollender Text */
 
       .parallax_1 {
@@ -694,14 +696,14 @@ a.logo{
 
 /* Homepage: Standortübersicht in Deutschland*/
 
-      .Contentbereich1_Homepage {
+    .Contentbereich1_Homepage {
         z-index: 2;
         position: absolute;
         width: 100%;
         height: 600px;
         top: 858px;
         background-color: #3C3C3C;
-      }
+        }
 
           /* Deutschlandkarte für die Standortübersicht der Autovermietung  */
 
@@ -714,777 +716,776 @@ a.logo{
                       background-repeat: no-repeat;
                     }
 
-                                    /* Pinnadel Hamburg */
-
-                                      .tooltip_HH {
-                                      position: relative;
-                                      left: 45.75%;
-                                      top: 16%;
-                                      height: 45px;
-                                      width: 45px;
-                                      background-image: url("images/Pin.png");
-                                      background-size: cover;
-                                      background-position: center;
-                                      background-repeat: no-repeat;
-                                    }
-
-                                    .tooltip_HH:hover {
-                                      position: relative;
-                                      left: 45.75%;
-                                      top: 16%;
-                                      height: 45px;
-                                      width: 45px;
-                                      background-image: url("images/Pin_Shadow.png");
-                                      background-size: cover;
-                                      background-position: center;
-                                      background-repeat: no-repeat;
-                                  }
-
-                                    .tooltiptext_HH {
-                                      font-family: 'Montserrat', normal;
-                                      font-weight: 400;
-                                      font-size: 16px;
-                                      line-height: 20px;
-                                      text-align: center;
-                                      color: #FFFFFF;
-                                    }
-
-                                    .tooltip_HH .tooltiptext_HH {
-                                      visibility: hidden;
-                                      width: 300px;
-                                      color: #fff;
-                                      text-align: right;
-                                      border-bottom: 1px solid #0cad9a;
-                                      position: absolute;
-                                      z-index: 0;
-                                      top: -30%;
-                                      left: 182%;
-                                      margin-left: -60px;
-                                      opacity: 0;
-                                      transition: opacity 0.3s;
-                                    }
-
-                                    .tooltip_HH:hover .tooltiptext_HH {
-                                      visibility: visible;
-                                      opacity: 1;
-                                    }
-
-                                    /* Pinnadel Bremen */
-
-                                      .tooltip_BRE {
-                                      position: relative;
-                                      left: 40.5%;
-                                      top: 14%;
-                                      height: 45px;
-                                      width: 45px;
-                                      background-image: url("images/Pin.png");
-                                      background-size: cover;
-                                      background-position: center;
-                                      background-repeat: no-repeat;
-                                    }
-
-                                    .tooltip_BRE:hover {
-                                      position: relative;
-                                      left: 40.5%;
-                                      top: 14%;
-                                      height: 45px;
-                                      width: 45px;
-                                      background-image: url("images/Pin_Shadow.png");
-                                      background-size: cover;
-                                      background-position: center;
-                                      background-repeat: no-repeat;
-                                  }
-
-                                    .tooltiptext_BRE {
-                                      font-family: 'Montserrat', normal;
-                                      font-weight: 400;
-                                      font-size: 16px;
-                                      line-height: 20px;
-                                      text-align: center;
-                                      color: #FFFFFF;
-                                    }
-
-                                    .tooltip_BRE .tooltiptext_BRE {
-                                      visibility: hidden;
-                                      width: 220px;
-                                      color: #fff;
-                                      text-align: left;
-                                      border-bottom: 1px solid #0cad9a;
-                                      position: absolute;
-                                      z-index: 0;
-                                      top: -30%;
-                                      left: -300%;
-                                      margin-left: -60px;
-                                      opacity: 0;
-                                      transition: opacity 0.3s;
-                                    }
-
-                                    .tooltip_BRE:hover .tooltiptext_BRE {
-                                      visibility: visible;
-                                      opacity: 1;
-                                    }
-
-
-                                    /* Pinnadel Berlin */
-
-                                      .tooltip_BER {
-                                      position: relative;
-                                      left: 61.5%;
-                                      top: 13%;
-                                      height: 45px;
-                                      width: 45px;
-                                      background-image: url("images/Pin.png");
-                                      background-size: cover;
-                                      background-position: center;
-                                      background-repeat: no-repeat;
-                                    }
-
-                                    .tooltip_BER:hover {
-                                      position: relative;
-                                      left: 61.5%;
-                                      top: 13%;
-                                      height: 45px;
-                                      width: 45px;
-                                      background-image: url("images/Pin_Shadow.png");
-                                      background-size: cover;
-                                      background-position: center;
-                                      background-repeat: no-repeat;
-                                  }
-
-                                    .tooltiptext_BER {
-                                      font-family: 'Montserrat', normal;
-                                      font-weight: 400;
-                                      font-size: 16px;
-                                      line-height: 20px;
-                                      text-align: center;
-                                      color: #FFFFFF;
-                                    }
-
-                                    .tooltip_BER .tooltiptext_BER {
-                                      visibility: hidden;
-                                      width: 150px;
-                                      color: #fff;
-                                      text-align: right;
-                                      border-bottom: 1px solid #0cad9a;
-                                      position: absolute;
-                                      z-index: 0;
-                                      top: -30%;
-                                      left: 182%;
-                                      margin-left: -60px;
-                                      opacity: 0;
-                                      transition: opacity 0.3s;
-                                    }
-
-                                    .tooltip_BER:hover .tooltiptext_BER {
-                                      visibility: visible;
-                                      opacity: 1;
-                                    }
-
-                                    /* Pinnadel Bielefeld */
-
-                                    .tooltip_BIE {
-                                      position: relative;
-                                      left: 38.5%;
-                                      top: 12%;
-                                      height: 45px;
-                                      width: 45px;
-                                      background-image: url("images/Pin.png");
-                                      background-size: cover;
-                                      background-position: center;
-                                      background-repeat: no-repeat;
-                                      }
-
-                                      .tooltip_BIE:hover {
-                                        position: relative;
-                                        left: 38.5%;
-                                        top: 12%;
-                                        height: 45px;
-                                        width: 45px;
-                                        background-image: url("images/Pin_Shadow.png");
-                                        background-size: cover;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                      }
-
-                                      .tooltiptext_BIE {
-                                        font-family: 'Montserrat', normal;
-                                        font-weight: 400;
-                                        font-size: 16px;
-                                        line-height: 20px;
-                                        text-align: center;
-                                        color: #FFFFFF;
-                                      }
-
-                                      .tooltip_BIE .tooltiptext_BIE {
-                                        visibility: hidden;
-                                        width: 220px;
-                                        color: #fff;
-                                        text-align: left;
-                                        border-bottom: 1px solid #0cad9a;
-                                        position: absolute;
-                                        z-index: 0;
-                                        top: -30%;
-                                        left: -300%;
-                                        margin-left: -60px;
-                                        opacity: 0;
-                                        transition: opacity 0.3s;
-                                      }
-
-                                      .tooltip_BIE:hover .tooltiptext_BIE {
-                                        visibility: visible;
-                                        opacity: 1;
-                                      }
-
-                                    /* Pinnadel Bochum */
-
-                                    .tooltip_BOC {
-                                        position: relative;
-                                        left: 32%;
-                                        top: 10%;
-                                        height: 45px;
-                                        width: 45px;
-                                        background-image: url("images/Pin.png");
-                                        background-size: cover;
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                        }
-
-                                        .tooltip_BOC:hover {
-                                          position: relative;
-                                          left: 32%;
-                                          top: 10%;
-                                          height: 45px;
-                                          width: 45px;
-                                          background-image: url("images/Pin_Shadow.png");
-                                          background-size: cover;
-                                          background-position: center;
-                                          background-repeat: no-repeat;
-                                        }
-
-                                        .tooltiptext_BOC {
-                                          font-family: 'Montserrat', normal;
-                                          font-weight: 400;
-                                          font-size: 16px;
-                                          line-height: 20px;
-                                          text-align: center;
-                                          color: #FFFFFF;
-                                        }
-
-                                        .tooltip_BOC .tooltiptext_BOC {
-                                          visibility: hidden;
-                                          width: 150px;
-                                          color: #fff;
-                                          text-align: left;
-                                          border-bottom: 1px solid #0cad9a;
-                                          position: absolute;
-                                          z-index: 0;
-                                          top: -30%;
-                                          left: -160%;
-                                          margin-left: -60px;
-                                          opacity: 0;
-                                          transition: opacity 0.3s;
-                                        }
-
-                                        .tooltip_BOC:hover .tooltiptext_BOC {
-                                          visibility: visible;
-                                          opacity: 1;
-                                        }
-
-                                    /* Pinnadel Dortmund */
-
-                                    .tooltip_DOR {
-                                            position: relative;
-                                            left: 34%;
-                                            top: 1.5%;
-                                            height: 45px;
-                                            width: 45px;
-                                            background-image: url("images/Pin.png");
-                                            background-size: cover;
-                                            background-position: center;
-                                            background-repeat: no-repeat;
-                                            }
-
-                                            .tooltip_DOR:hover {
-                                              position: relative;
-                                              left: 34%;
-                                              top: 1.5%;
-                                              height: 45px;
-                                              width: 45px;
-                                              background-image: url("images/Pin_Shadow.png");
-                                              background-size: cover;
-                                              background-position: center;
-                                              background-repeat: no-repeat;
-                                            }
-
-                                            .tooltiptext_DOR {
-                                              font-family: 'Montserrat', normal;
-                                              font-weight: 400;
-                                              font-size: 16px;
-                                              line-height: 20px;
-                                              text-align: center;
-                                              color: #FFFFFF;
-                                            }
-
-                                            .tooltip_DOR .tooltiptext_DOR {
-                                              visibility: hidden;
-                                              width: 150px;
-                                              color: #fff;
-                                              text-align: left;
-                                              border-bottom: 1px solid #0cad9a;
-                                              position: absolute;
-                                              z-index: 0;
-                                              top: -30%;
-                                              left: -160%;
-                                              margin-left: -60px;
-                                              opacity: 0;
-                                              transition: opacity 0.3s;
-                                            }
-
-                                            .tooltip_DOR:hover .tooltiptext_DOR {
-                                              visibility: visible;
-                                              opacity: 1;
-                                            }
-
-                                    /* Pinnadel Dresden */
-
-                                    .tooltip_DRE {
-                                                    position: relative;
-                                                    left: 65%;
-                                                    top: 1.5%;
-                                                    height: 45px;
-                                                    width: 45px;
-                                                    background-image: url("images/Pin.png");
-                                                    background-size: cover;
-                                                    background-position: center;
-                                                    background-repeat: no-repeat;
-                                                    }
-
-                                                    .tooltip_DRE:hover {
-                                                      position: relative;
-                                                      left: 65%;
-                                                      top: 1.5%;
-                                                      height: 45px;
-                                                      width: 45px;
-                                                      background-image: url("images/Pin_Shadow.png");
-                                                      background-size: cover;
-                                                      background-position: center;
-                                                      background-repeat: no-repeat;
-                                                    }
-
-                                                    .tooltiptext_DRE {
-                                                      font-family: 'Montserrat', normal;
-                                                      font-weight: 400;
-                                                      font-size: 16px;
-                                                      line-height: 20px;
-                                                      text-align: center;
-                                                      color: #FFFFFF;
-                                                    }
-
-                                                    .tooltip_DRE .tooltiptext_DRE {
-                                                      visibility: hidden;
-                                                      width: 150px;
-                                                      color: #fff;
-                                                      text-align: right;
-                                                      border-bottom: 1px solid #0cad9a;
-                                                      position: absolute;
-                                                      z-index: 0;
-                                                      top: -30%;
-                                                      left: 182%;
-                                                      margin-left: -60px;
-                                                      opacity: 0;
-                                                      transition: opacity 0.3s;
-                                                    }
-
-                                                    .tooltip_DRE:hover .tooltiptext_DRE {
-                                                      visibility: visible;
-                                                      opacity: 1;
-                                                    }
-
-                                    /* Pinnadel Freiburg */
-
-                                    .tooltip_FRE {
-                                                      position: relative;
-                                                      left: 35%;
-                                                      top: 32%;
-                                                      height: 45px;
-                                                      width: 45px;
-                                                      background-image: url("images/Pin.png");
-                                                      background-size: cover;
-                                                      background-position: center;
-                                                      background-repeat: no-repeat;
-                                                      }
-
-                                                      .tooltip_FRE:hover {
-                                                        position: relative;
-                                                        left: 35%;
-                                                        top: 32%;
-                                                        height: 45px;
-                                                        width: 45px;
-                                                        background-image: url("images/Pin_Shadow.png");
-                                                        background-size: cover;
-                                                        background-position: center;
-                                                        background-repeat: no-repeat;
-                                                      }
-
-                                                      .tooltiptext_FRE {
-                                                        font-family: 'Montserrat', normal;
-                                                        font-weight: 400;
-                                                        font-size: 16px;
-                                                        line-height: 20px;
-                                                        text-align: center;
-                                                        color: #FFFFFF;
-                                                      }
-
-                                                      .tooltip_FRE .tooltiptext_FRE {
-                                                        visibility: hidden;
-                                                        width: 180px;
-                                                        color: #fff;
-                                                        text-align: left;
-                                                        border-bottom: 1px solid #0cad9a;
-                                                        position: absolute;
-                                                        z-index: 0;
-                                                        top: -30%;
-                                                        left: -210%;
-                                                        margin-left: -60px;
-                                                        opacity: 0;
-                                                        transition: opacity 0.3s;
-                                                      }
-
-                                                      .tooltip_FRE:hover .tooltiptext_FRE {
-                                                        visibility: visible;
-                                                        opacity: 1;
-                                                      }
-
-                                  /* Pinnadel Köln */
-
-                                    .tooltip_KOL {
-                                      position: relative;
-                                      left: 30%;
-                                      top: -14%;
-                                      height: 45px;
-                                      width: 45px;
-                                      background-image: url("images/Pin.png");
-                                                                        background-size: cover;
-                                                                        background-position: center;
-                                                                        background-repeat: no-repeat;
-                                                                        }
-
-                                                                        .tooltip_KOL:hover {
-                                                                          position: relative;
-                                                                          left: 30%;
-                                                                          top: -14%;
-                                                                          height: 45px;
-                                                                          width: 45px;
-                                                                          background-image: url("images/Pin_Shadow.png");
-                                                                          background-size: cover;
-                                                                          background-position: center;
-                                                                          background-repeat: no-repeat;
-                                                                        }
-
-                                                                        .tooltiptext_KOL {
-                                                                          font-family: 'Montserrat', normal;
-                                                                          font-weight: 400;
-                                                                          font-size: 16px;
-                                                                          line-height: 20px;
-                                                                          text-align: center;
-                                                                          color: #FFFFFF;
-                                                                        }
-
-                                                                        .tooltip_KOL .tooltiptext_KOL {
-                                                                          visibility: hidden;
-                                                                          width: 100px;
-                                                                          color: #fff;
-                                                                          text-align: left;
-                                                                          border-bottom: 1px solid #0cad9a;
-                                                                          position: absolute;
-                                                                          z-index: 0;
-                                                                          top: -30%;
-                                                                          left: -50%;
-                                                                          margin-left: -60px;
-                                                                          opacity: 0;
-                                                                          transition: opacity 0.3s;
-                                                                        }
-
-                                                                        .tooltip_KOL:hover .tooltiptext_KOL {
-                                                                          visibility: visible;
-                                                                          opacity: 1;
-                                                                        }
-
-                                  /* Pinnadel Leipzig */
-
-                                    .tooltip_LEI {
-                                                                                          position: relative;
-                                                                                          left: 57.5%;
-                                                                                          top: -25%;
-                                                                                          height: 45px;
-                                                                                          width: 45px;
-                                                                                          background-image: url("images/Pin.png");
-                                                                                          background-size: cover;
-                                                                                          background-position: center;
-                                                                                          background-repeat: no-repeat;
-                                                                                          }
-
-                                                                                          .tooltip_LEI:hover {
-                                                                                            position: relative;
-                                                                                            left: 57.5%;
-                                                                                            top: -25%;
-                                                                                            height: 45px;
-                                                                                            width: 45px;
-                                                                                            background-image: url("images/Pin_Shadow.png");
-                                                                                            background-size: cover;
-                                                                                            background-position: center;
-                                                                                            background-repeat: no-repeat;
-                                                                                          }
-
-                                                                                          .tooltiptext_LEI {
-                                                                                            font-family: 'Montserrat', normal;
-                                                                                            font-weight: 400;
-                                                                                            font-size: 16px;
-                                                                                            line-height: 20px;
-                                                                                            text-align: center;
-                                                                                            color: #FFFFFF;
-                                                                                          }
-
-                                                                                          .tooltip_LEI .tooltiptext_LEI {
-                                                                                            visibility: hidden;
-                                                                                            width: 200px;
-                                                                                            color: #fff;
-                                                                                            text-align: right;
-                                                                                            border-bottom: 1px solid #0cad9a;
-                                                                                            position: absolute;
-                                                                                            z-index: 0;
-                                                                                            top: -30%;
-                                                                                            left: 182%;
-                                                                                            margin-left: -60px;
-                                                                                            opacity: 0;
-                                                                                            transition: opacity 0.3s;
-                                                                                          }
-
-                                                                                          .tooltip_LEI:hover .tooltiptext_LEI {
-                                                                                            visibility: visible;
-                                                                                            opacity: 1;
-                                                                                          }
-
-
-                                 /* Pinnadel München */
-
-                                    .tooltip_MUN {
-                                                                                                                                                  position: relative;
-                                                                                                                                                  left: 55%;
-                                                                                                                                                  top: 6%;
-                                                                                                                                                  height: 45px;
-                                                                                                                                                  width: 45px;
-                                                                                                                                                  background-image: url("images/Pin.png");
-                                                                                                                                                  background-size: cover;
-                                                                                                                                                  background-position: center;
-                                                                                                                                                  background-repeat: no-repeat;
-                                                                                                                                                  }
-
-                                                                                                                                                  .tooltip_MUN:hover {
-                                                                                                                                                    position: relative;
-                                                                                                                                                    left: 55%;
-                                                                                                                                                    top: 6%;
-                                                                                                                                                    height: 45px;
-                                                                                                                                                    width: 45px;
-                                                                                                                                                    background-image: url("images/Pin_Shadow.png");
-                                                                                                                                                    background-size: cover;
-                                                                                                                                                    background-position: center;
-                                                                                                                                                    background-repeat: no-repeat;
-                                                                                                                                                  }
-
-                                                                                                                                                  .tooltiptext_MUN {
-                                                                                                                                                    font-family: 'Montserrat', normal;
-                                                                                                                                                    font-weight: 400;
-                                                                                                                                                    font-size: 16px;
-                                                                                                                                                    line-height: 20px;
-                                                                                                                                                    text-align: center;
-                                                                                                                                                    color: #FFFFFF;
-                                                                                                                                                  }
-
-                                                                                                                                                  .tooltip_MUN .tooltiptext_MUN {
-                                                                                                                                                    visibility: hidden;
-                                                                                                                                                    width: 200px;
-                                                                                                                                                    color: #fff;
-                                                                                                                                                    text-align: right;
-                                                                                                                                                    border-bottom: 1px solid #0cad9a;
-                                                                                                                                                    position: absolute;
-                                                                                                                                                    z-index: 0;
-                                                                                                                                                    top: -30%;
-                                                                                                                                                    left: 182%;
-                                                                                                                                                    margin-left: -60px;
-                                                                                                                                                    opacity: 0;
-                                                                                                                                                    transition: opacity 0.3s;
-                                                                                                                                                  }
-
-                                                                                                                                                  .tooltip_MUN:hover .tooltiptext_MUN {
-                                                                                                                                                    visibility: visible;
-                                                                                                                                                    opacity: 1;
-                                                                                                                                                  }
-
-                                 /* Pinnadel Nürnberg */
-
-                                    .tooltip_NUR {
-                                                                                                                                                    position: relative;
-                                                                                                                                                    left: 49%;
-                                                                                                                                                    top: -17%;
-                                                                                                                                                    height: 45px;
-                                                                                                                                                    width: 45px;
-                                                                                                                                                    background-image: url("images/Pin.png");
-                                                                                                                                                    background-size: cover;
-                                                                                                                                                    background-position: center;
-                                                                                                                                                    background-repeat: no-repeat;
-                                                                                                                                                  }
-
-                                                                                                                                                  .tooltip_NUR:hover {
-                                                                                                                                                    position: relative;
-                                                                                                                                                    left: 49%;
-                                                                                                                                                    top: -17%;
-                                                                                                                                                    height: 45px;
-                                                                                                                                                    width: 45px;
-                                                                                                                                                    background-image: url("images/Pin_Shadow.png");
-                                                                                                                                                    background-size: cover;
-                                                                                                                                                    background-position: center;
-                                                                                                                                                    background-repeat: no-repeat;
-                                                                                                                                                }
-
-                                                                                                                                                  .tooltiptext_NUR {
-                                                                                                                                                    font-family: 'Montserrat', normal;
-                                                                                                                                                    font-weight: 400;
-                                                                                                                                                    font-size: 16px;
-                                                                                                                                                    line-height: 20px;
-                                                                                                                                                    text-align: center;
-                                                                                                                                                    color: #FFFFFF;
-                                                                                                                                                  }
-
-                                                                                                                                                  .tooltip_NUR .tooltiptext_NUR {
-                                                                                                                                                    visibility: hidden;
-                                                                                                                                                    width: 250px;
-                                                                                                                                                    color: #fff;
-                                                                                                                                                    text-align: right;
-                                                                                                                                                    border-bottom: 1px solid #0cad9a;
-                                                                                                                                                    position: absolute;
-                                                                                                                                                    z-index: 0;
-                                                                                                                                                    top: -30%;
-                                                                                                                                                    left: 182%;
-                                                                                                                                                    margin-left: -60px;
-                                                                                                                                                    opacity: 0;
-                                                                                                                                                    transition: opacity 0.3s;
-                                                                                                                                                  }
-
-                                                                                                                                                  .tooltip_NUR:hover .tooltiptext_NUR {
-                                                                                                                                                    visibility: visible;
-                                                                                                                                                    opacity: 1;
-                                                                                                                                                  }
-
-                                 /* Pinnadel Paderborn */
-
-                                    .tooltip_PAD {
-                                                                                                                                                                                                                                                                     position: relative;
-                                                                                                                                                                                                                                                                     left: 40%;
-                                                                                                                                                                                                                                                                     top: -51%;
-                                                                                                                                                                                                                                                                     height: 45px;
-                                                                                                                                                                                                                                                                     width: 45px;
-                                                                                                                                                                                                                                                                     background-image: url("images/Pin.png");
-                                                                                                                                                                                                                                                                     background-size: cover;
-                                                                                                                                                                                                                                                                     background-position: center;
-                                                                                                                                                                                                                                                                     background-repeat: no-repeat;
-                                                                                                                                                                                                                                                                   }
-
-                                                                                                                                                                                                                                                                   .tooltip_PAD:hover {
-                                                                                                                                                                                                                                                                     position: relative;
-                                                                                                                                                                                                                                                                     left: 40%;
-                                                                                                                                                                                                                                                                     top: -51%;
-                                                                                                                                                                                                                                                                     height: 45px;
-                                                                                                                                                                                                                                                                     width: 45px;
-                                                                                                                                                                                                                                                                     background-image: url("images/Pin_Shadow.png");
-                                                                                                                                                                                                                                                                     background-size: cover;
-                                                                                                                                                                                                                                                                     background-position: center;
-                                                                                                                                                                                                                                                                     background-repeat: no-repeat;
-                                                                                                                                                                                                                                                                 }
-
-                                                                                                                                                                                                                                                                   .tooltiptext_PAD {
-                                                                                                                                                                                                                                                                     font-family: 'Montserrat', normal;
-                                                                                                                                                                                                                                                                     font-weight: 400;
-                                                                                                                                                                                                                                                                     font-size: 16px;
-                                                                                                                                                                                                                                                                     line-height: 20px;
-                                                                                                                                                                                                                                                                     text-align: center;
-                                                                                                                                                                                                                                                                     color: #FFFFFF;
-                                                                                                                                                                                                                                                                   }
-
-                                                                                                                                                                                                                                                                   .tooltip_PAD .tooltiptext_PAD {
-                                                                                                                                                                                                                                                                     visibility: hidden;
-                                                                                                                                                                                                                                                                     width: 400px;
-                                                                                                                                                                                                                                                                     color: #fff;
-                                                                                                                                                                                                                                                                     text-align: right;
-                                                                                                                                                                                                                                                                     border-bottom: 1px solid #0cad9a;
-                                                                                                                                                                                                                                                                     position: absolute;
-                                                                                                                                                                                                                                                                     z-index: 0;
-                                                                                                                                                                                                                                                                     top: -30%;
-                                                                                                                                                                                                                                                                     left: 182%;
-                                                                                                                                                                                                                                                                     margin-left: -60px;
-                                                                                                                                                                                                                                                                     opacity: 0;
-                                                                                                                                                                                                                                                                     transition: opacity 0.3s;
-                                                                                                                                                                                                                                                                   }
-
-                                                                                                                                                                                                                                                                   .tooltip_PAD:hover .tooltiptext_PAD {
-                                                                                                                                                                                                                                                                     visibility: visible;
-                                                                                                                                                                                                                                                                     opacity: 1;
-                                                                                                                                                                                                                                                                   }
-
-                                /* Pinnadel Rostock */
-
-                                    .tooltip_ROS {
-                                         position: relative;
-                                         left: 55.75%;
-                                         top: -88%;
-                                         height: 45px;
-                                         width: 45px;
-                                         background-image: url("images/Pin.png");
-                                         background-size: cover;
-                                         background-position: center;
-                                         background-repeat: no-repeat;
-                                         }
-
-                                       .tooltip_ROS:hover {
-                                         position: relative;
-                                         left: 55.75%;
-                                         top: -88%;
-                                         height: 45px;
-                                         width: 45px;
-                                         background-image: url("images/Pin_Shadow.png");
-                                         background-size: cover;
-                                         background-position: center;
-                                         background-repeat: no-repeat;
-                                     }
-
-                                       .tooltiptext_ROS {
-                                         font-family: 'Montserrat', normal;
-                                         font-weight: 400;
-                                         font-size: 16px;
-                                         line-height: 20px;
-                                         text-align: center;
-                                         color: #FFFFFF;
-                                       }
-
-                                       .tooltip_ROS .tooltiptext_ROS {
-                                         visibility: hidden;
-                                         width: 200px;
-                                         color: #fff;
-                                         text-align: right;
-                                         border-bottom: 1px solid #0cad9a;
-                                         position: absolute;
-                                         z-index: 0;
-                                         top: -30%;
-                                         left: 182%;
-                                         margin-left: -60px;
-                                         opacity: 0;
-                                         transition: opacity 0.3s;
-                                       }
-
-                                       .tooltip_ROS:hover .tooltiptext_ROS {
-                                         visibility: visible;
-                                         opacity: 1;
-                                       }
+                      /* Pinnadel Hamburg */
+
+                        .tooltip_HH {
+                              position: relative;
+                              left: 45.75%;
+                              top: 16%;
+                              height: 45px;
+                              width: 45px;
+                              background-image: url("images/Pin.png");
+                              background-size: cover;
+                              background-position: center;
+                              background-repeat: no-repeat;
+                            }
+
+                            .tooltip_HH:hover {
+                              position: relative;
+                              left: 45.75%;
+                              top: 16%;
+                              height: 45px;
+                              width: 45px;
+                              background-image: url("images/Pin_Shadow.png");
+                              background-size: cover;
+                              background-position: center;
+                              background-repeat: no-repeat;
+                            }
+
+                            .tooltiptext_HH {
+                              font-family: 'Montserrat', normal;
+                              font-weight: 400;
+                              font-size: 16px;
+                              line-height: 20px;
+                              text-align: center;
+                              color: #FFFFFF;
+                            }
+
+                            .tooltip_HH .tooltiptext_HH {
+                              visibility: hidden;
+                              width: 300px;
+                              color: #fff;
+                              text-align: right;
+                              border-bottom: 1px solid #0cad9a;
+                              position: absolute;
+                              z-index: 0;
+                              top: -30%;
+                              left: 182%;
+                              margin-left: -60px;
+                              opacity: 0;
+                              transition: opacity 0.3s;
+                            }
+
+                            .tooltip_HH:hover .tooltiptext_HH {
+                              visibility: visible;
+                              opacity: 1;
+                            }
+
+                      /* Pinnadel Bremen */
+
+                        .tooltip_BRE {
+                            position: relative;
+                            left: 40.5%;
+                            top: 14%;
+                            height: 45px;
+                            width: 45px;
+                            background-image: url("images/Pin.png");
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            }
+
+                          .tooltip_BRE:hover {
+                            position: relative;
+                            left: 40.5%;
+                            top: 14%;
+                            height: 45px;
+                            width: 45px;
+                            background-image: url("images/Pin_Shadow.png");
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            }
+
+                          .tooltiptext_BRE {
+                            font-family: 'Montserrat', normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 20px;
+                            text-align: center;
+                            color: #FFFFFF;
+                            }
+
+                          .tooltip_BRE .tooltiptext_BRE {
+                            visibility: hidden;
+                            width: 220px;
+                            color: #fff;
+                            text-align: left;
+                            border-bottom: 1px solid #0cad9a;
+                            position: absolute;
+                            z-index: 0;
+                            top: -30%;
+                            left: -300%;
+                            margin-left: -60px;
+                            opacity: 0;
+                            transition: opacity 0.3s;
+                            }
+
+                          .tooltip_BRE:hover .tooltiptext_BRE {
+                            visibility: visible;
+                            opacity: 1;
+                            }
+
+
+                      /* Pinnadel Berlin */
+
+                        .tooltip_BER {
+                            position: relative;
+                            left: 61.5%;
+                            top: 13%;
+                            height: 45px;
+                            width: 45px;
+                            background-image: url("images/Pin.png");
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            }
+
+                          .tooltip_BER:hover {
+                            position: relative;
+                            left: 61.5%;
+                            top: 13%;
+                            height: 45px;
+                            width: 45px;
+                            background-image: url("images/Pin_Shadow.png");
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            }
+
+                          .tooltiptext_BER {
+                            font-family: 'Montserrat', normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 20px;
+                            text-align: center;
+                            color: #FFFFFF;
+                            }
+
+                          .tooltip_BER .tooltiptext_BER {
+                            visibility: hidden;
+                            width: 150px;
+                            color: #fff;
+                            text-align: right;
+                            border-bottom: 1px solid #0cad9a;
+                            position: absolute;
+                            z-index: 0;
+                            top: -30%;
+                            left: 182%;
+                            margin-left: -60px;
+                            opacity: 0;
+                            transition: opacity 0.3s;
+                            }
+
+                          .tooltip_BER:hover .tooltiptext_BER {
+                            visibility: visible;
+                            opacity: 1;
+                            }
+
+                      /* Pinnadel Bielefeld */
+
+                        .tooltip_BIE {
+                            position: relative;
+                            left: 38.5%;
+                            top: 12%;
+                            height: 45px;
+                            width: 45px;
+                            background-image: url("images/Pin.png");
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            }
+
+                            .tooltip_BIE:hover {
+                              position: relative;
+                              left: 38.5%;
+                              top: 12%;
+                              height: 45px;
+                              width: 45px;
+                              background-image: url("images/Pin_Shadow.png");
+                              background-size: cover;
+                              background-position: center;
+                              background-repeat: no-repeat;
+                              }
+
+                            .tooltiptext_BIE {
+                              font-family: 'Montserrat', normal;
+                              font-weight: 400;
+                              font-size: 16px;
+                              line-height: 20px;
+                              text-align: center;
+                              color: #FFFFFF;
+                              }
+
+                            .tooltip_BIE .tooltiptext_BIE {
+                              visibility: hidden;
+                              width: 220px;
+                              color: #fff;
+                              text-align: left;
+                              border-bottom: 1px solid #0cad9a;
+                              position: absolute;
+                              z-index: 0;
+                              top: -30%;
+                              left: -300%;
+                              margin-left: -60px;
+                              opacity: 0;
+                              transition: opacity 0.3s;
+                              }
+
+                            .tooltip_BIE:hover .tooltiptext_BIE {
+                              visibility: visible;
+                              opacity: 1;
+                              }
+
+                      /* Pinnadel Bochum */
+
+                        .tooltip_BOC {
+                            position: relative;
+                            left: 32%;
+                            top: 10%;
+                            height: 45px;
+                            width: 45px;
+                            background-image: url("images/Pin.png");
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            }
+
+                            .tooltip_BOC:hover {
+                              position: relative;
+                              left: 32%;
+                              top: 10%;
+                              height: 45px;
+                              width: 45px;
+                              background-image: url("images/Pin_Shadow.png");
+                              background-size: cover;
+                              background-position: center;
+                              background-repeat: no-repeat;
+                              }
+
+                            .tooltiptext_BOC {
+                              font-family: 'Montserrat', normal;
+                              font-weight: 400;
+                              font-size: 16px;
+                              line-height: 20px;
+                              text-align: center;
+                              color: #FFFFFF;
+                              }
+
+                            .tooltip_BOC .tooltiptext_BOC {
+                              visibility: hidden;
+                              width: 150px;
+                              color: #fff;
+                              text-align: left;
+                              border-bottom: 1px solid #0cad9a;
+                              position: absolute;
+                              z-index: 0;
+                              top: -30%;
+                              left: -160%;
+                              margin-left: -60px;
+                              opacity: 0;
+                              transition: opacity 0.3s;
+                              }
+
+                            .tooltip_BOC:hover .tooltiptext_BOC {
+                              visibility: visible;
+                              opacity: 1;
+                              }
+
+                      /* Pinnadel Dortmund */
+
+                        .tooltip_DOR {
+                            position: relative;
+                            left: 34%;
+                            top: 1.5%;
+                            height: 45px;
+                            width: 45px;
+                            background-image: url("images/Pin.png");
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            }
+
+                            .tooltip_DOR:hover {
+                              position: relative;
+                              left: 34%;
+                              top: 1.5%;
+                              height: 45px;
+                              width: 45px;
+                              background-image: url("images/Pin_Shadow.png");
+                              background-size: cover;
+                              background-position: center;
+                              background-repeat: no-repeat;
+                              }
+
+                            .tooltiptext_DOR {
+                              font-family: 'Montserrat', normal;
+                              font-weight: 400;
+                              font-size: 16px;
+                              line-height: 20px;
+                              text-align: center;
+                              color: #FFFFFF;
+                              }
+
+                            .tooltip_DOR .tooltiptext_DOR {
+                              visibility: hidden;
+                              width: 150px;
+                              color: #fff;
+                              text-align: left;
+                              border-bottom: 1px solid #0cad9a;
+                              position: absolute;
+                              z-index: 0;
+                              top: -30%;
+                              left: -160%;
+                              margin-left: -60px;
+                              opacity: 0;
+                              transition: opacity 0.3s;
+                              }
+
+                            .tooltip_DOR:hover .tooltiptext_DOR {
+                              visibility: visible;
+                              opacity: 1;
+                              }
+
+                      /* Pinnadel Dresden */
+
+                      .tooltip_DRE {
+                          position: relative;
+                          left: 65%;
+                          top: 1.5%;
+                          height: 45px;
+                          width: 45px;
+                          background-image: url("images/Pin.png");
+                          background-size: cover;
+                          background-position: center;
+                          background-repeat: no-repeat;
+                          }
+
+                          .tooltip_DRE:hover {
+                            position: relative;
+                            left: 65%;
+                            top: 1.5%;
+                            height: 45px;
+                            width: 45px;
+                            background-image: url("images/Pin_Shadow.png");
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            }
+
+                          .tooltiptext_DRE {
+                            font-family: 'Montserrat', normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 20px;
+                            text-align: center;
+                            color: #FFFFFF;
+                            }
+
+                          .tooltip_DRE .tooltiptext_DRE {
+                            visibility: hidden;
+                            width: 150px;
+                            color: #fff;
+                            text-align: right;
+                            border-bottom: 1px solid #0cad9a;
+                            position: absolute;
+                            z-index: 0;
+                            top: -30%;
+                            left: 182%;
+                            margin-left: -60px;
+                            opacity: 0;
+                            transition: opacity 0.3s;
+                            }
+
+                          .tooltip_DRE:hover .tooltiptext_DRE {
+                            visibility: visible;
+                            opacity: 1;
+                            }
+
+                      /* Pinnadel Freiburg */
+
+                      .tooltip_FRE {
+                          position: relative;
+                          left: 35%;
+                          top: 32%;
+                          height: 45px;
+                          width: 45px;
+                          background-image: url("images/Pin.png");
+                          background-size: cover;
+                          background-position: center;
+                          background-repeat: no-repeat;
+                          }
+
+                          .tooltip_FRE:hover {
+                            position: relative;
+                            left: 35%;
+                            top: 32%;
+                            height: 45px;
+                            width: 45px;
+                            background-image: url("images/Pin_Shadow.png");
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            }
+
+                          .tooltiptext_FRE {
+                            font-family: 'Montserrat', normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 20px;
+                            text-align: center;
+                            color: #FFFFFF;
+                            }
+
+                          .tooltip_FRE .tooltiptext_FRE {
+                            visibility: hidden;
+                            width: 180px;
+                            color: #fff;
+                            text-align: left;
+                            border-bottom: 1px solid #0cad9a;
+                            position: absolute;
+                            z-index: 0;
+                            top: -30%;
+                            left: -210%;
+                            margin-left: -60px;
+                            opacity: 0;
+                            transition: opacity 0.3s;
+                            }
+
+                          .tooltip_FRE:hover .tooltiptext_FRE {
+                            visibility: visible;
+                            opacity: 1;
+                            }
+
+                    /* Pinnadel Köln */
+
+                      .tooltip_KOL {
+                          position: relative;
+                          left: 30%;
+                          top: -14%;
+                          height: 45px;
+                          width: 45px;
+                          background-image: url("images/Pin.png");
+                          background-size: cover;
+                          background-position: center;
+                          background-repeat: no-repeat;
+                          }
+
+                          .tooltip_KOL:hover {
+                            position: relative;
+                            left: 30%;
+                            top: -14%;
+                            height: 45px;
+                            width: 45px;
+                            background-image: url("images/Pin_Shadow.png");
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                          }
+
+                          .tooltiptext_KOL {
+                            font-family: 'Montserrat', normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 20px;
+                            text-align: center;
+                            color: #FFFFFF;
+                          }
+
+                          .tooltip_KOL .tooltiptext_KOL {
+                            visibility: hidden;
+                            width: 100px;
+                            color: #fff;
+                            text-align: left;
+                            border-bottom: 1px solid #0cad9a;
+                            position: absolute;
+                            z-index: 0;
+                            top: -30%;
+                            left: -50%;
+                            margin-left: -60px;
+                            opacity: 0;
+                            transition: opacity 0.3s;
+                          }
+
+                          .tooltip_KOL:hover .tooltiptext_KOL {
+                            visibility: visible;
+                            opacity: 1;
+                          }
+
+                    /* Pinnadel Leipzig */
+
+                      .tooltip_LEI {
+                          position: relative;
+                          left: 57.5%;
+                          top: -25%;
+                          height: 45px;
+                          width: 45px;
+                          background-image: url("images/Pin.png");
+                          background-size: cover;
+                          background-position: center;
+                          background-repeat: no-repeat;
+                          }
+
+                          .tooltip_LEI:hover {
+                            position: relative;
+                            left: 57.5%;
+                            top: -25%;
+                            height: 45px;
+                            width: 45px;
+                            background-image: url("images/Pin_Shadow.png");
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                          }
+
+                          .tooltiptext_LEI {
+                            font-family: 'Montserrat', normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 20px;
+                            text-align: center;
+                            color: #FFFFFF;
+                          }
+
+                          .tooltip_LEI .tooltiptext_LEI {
+                            visibility: hidden;
+                            width: 200px;
+                            color: #fff;
+                            text-align: right;
+                            border-bottom: 1px solid #0cad9a;
+                            position: absolute;
+                            z-index: 0;
+                            top: -30%;
+                            left: 182%;
+                            margin-left: -60px;
+                            opacity: 0;
+                            transition: opacity 0.3s;
+                          }
+
+                          .tooltip_LEI:hover .tooltiptext_LEI {
+                            visibility: visible;
+                            opacity: 1;
+                          }
+
+                   /* Pinnadel München */
+
+                      .tooltip_MUN {
+                          position: relative;
+                          left: 55%;
+                          top: 6%;
+                          height: 45px;
+                          width: 45px;
+                          background-image: url("images/Pin.png");
+                          background-size: cover;
+                          background-position: center;
+                          background-repeat: no-repeat;
+                          }
+
+                          .tooltip_MUN:hover {
+                            position: relative;
+                            left: 55%;
+                            top: 6%;
+                            height: 45px;
+                            width: 45px;
+                            background-image: url("images/Pin_Shadow.png");
+                            background-size: cover;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                          }
+
+                          .tooltiptext_MUN {
+                            font-family: 'Montserrat', normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 20px;
+                            text-align: center;
+                            color: #FFFFFF;
+                          }
+
+                          .tooltip_MUN .tooltiptext_MUN {
+                            visibility: hidden;
+                            width: 200px;
+                            color: #fff;
+                            text-align: right;
+                            border-bottom: 1px solid #0cad9a;
+                            position: absolute;
+                            z-index: 0;
+                            top: -30%;
+                            left: 182%;
+                            margin-left: -60px;
+                            opacity: 0;
+                            transition: opacity 0.3s;
+                          }
+
+                          .tooltip_MUN:hover .tooltiptext_MUN {
+                            visibility: visible;
+                            opacity: 1;
+                          }
+
+                   /* Pinnadel Nürnberg */
+
+                      .tooltip_NUR {
+                          position: relative;
+                          left: 49%;
+                          top: -17%;
+                          height: 45px;
+                          width: 45px;
+                          background-image: url("images/Pin.png");
+                          background-size: cover;
+                          background-position: center;
+                          background-repeat: no-repeat;
+                        }
+
+                        .tooltip_NUR:hover {
+                          position: relative;
+                          left: 49%;
+                          top: -17%;
+                          height: 45px;
+                          width: 45px;
+                          background-image: url("images/Pin_Shadow.png");
+                          background-size: cover;
+                          background-position: center;
+                          background-repeat: no-repeat;
+                        }
+
+                        .tooltiptext_NUR {
+                          font-family: 'Montserrat', normal;
+                          font-weight: 400;
+                          font-size: 16px;
+                          line-height: 20px;
+                          text-align: center;
+                          color: #FFFFFF;
+                        }
+
+                        .tooltip_NUR .tooltiptext_NUR {
+                          visibility: hidden;
+                          width: 250px;
+                          color: #fff;
+                          text-align: right;
+                          border-bottom: 1px solid #0cad9a;
+                          position: absolute;
+                          z-index: 0;
+                          top: -30%;
+                          left: 182%;
+                          margin-left: -60px;
+                          opacity: 0;
+                          transition: opacity 0.3s;
+                        }
+
+                        .tooltip_NUR:hover .tooltiptext_NUR {
+                          visibility: visible;
+                          opacity: 1;
+                        }
+
+                   /* Pinnadel Paderborn */
+
+                      .tooltip_PAD {
+                           position: relative;
+                           left: 40%;
+                           top: -51%;
+                           height: 45px;
+                           width: 45px;
+                           background-image: url("images/Pin.png");
+                           background-size: cover;
+                           background-position: center;
+                           background-repeat: no-repeat;
+                         }
+
+                         .tooltip_PAD:hover {
+                           position: relative;
+                           left: 40%;
+                           top: -51%;
+                           height: 45px;
+                           width: 45px;
+                           background-image: url("images/Pin_Shadow.png");
+                           background-size: cover;
+                           background-position: center;
+                           background-repeat: no-repeat;
+                         }
+
+                         .tooltiptext_PAD {
+                           font-family: 'Montserrat', normal;
+                           font-weight: 400;
+                           font-size: 16px;
+                           line-height: 20px;
+                           text-align: center;
+                           color: #FFFFFF;
+                         }
+
+                         .tooltip_PAD .tooltiptext_PAD {
+                           visibility: hidden;
+                           width: 400px;
+                           color: #fff;
+                           text-align: right;
+                           border-bottom: 1px solid #0cad9a;
+                           position: absolute;
+                           z-index: 0;
+                           top: -30%;
+                           left: 182%;
+                           margin-left: -60px;
+                           opacity: 0;
+                           transition: opacity 0.3s;
+                         }
+
+                         .tooltip_PAD:hover .tooltiptext_PAD {
+                           visibility: visible;
+                           opacity: 1;
+                         }
+
+                  /* Pinnadel Rostock */
+
+                      .tooltip_ROS {
+                           position: relative;
+                           left: 55.75%;
+                           top: -88%;
+                           height: 45px;
+                           width: 45px;
+                           background-image: url("images/Pin.png");
+                           background-size: cover;
+                           background-position: center;
+                           background-repeat: no-repeat;
+                           }
+
+                         .tooltip_ROS:hover {
+                           position: relative;
+                           left: 55.75%;
+                           top: -88%;
+                           height: 45px;
+                           width: 45px;
+                           background-image: url("images/Pin_Shadow.png");
+                           background-size: cover;
+                           background-position: center;
+                           background-repeat: no-repeat;
+                       }
+
+                         .tooltiptext_ROS {
+                           font-family: 'Montserrat', normal;
+                           font-weight: 400;
+                           font-size: 16px;
+                           line-height: 20px;
+                           text-align: center;
+                           color: #FFFFFF;
+                         }
+
+                         .tooltip_ROS .tooltiptext_ROS {
+                           visibility: hidden;
+                           width: 200px;
+                           color: #fff;
+                           text-align: right;
+                           border-bottom: 1px solid #0cad9a;
+                           position: absolute;
+                           z-index: 0;
+                           top: -30%;
+                           left: 182%;
+                           margin-left: -60px;
+                           opacity: 0;
+                           transition: opacity 0.3s;
+                         }
+
+                         .tooltip_ROS:hover .tooltiptext_ROS {
+                           visibility: visible;
+                           opacity: 1;
+                         }
 
 
           /* Homepage: Textbox Contentbereich 1 */
@@ -1533,81 +1534,82 @@ a.logo{
 /* Homepage: Teaser der Autokategorien*/
 
     .Contentbereich2_Homepage {
-      z-index: 2;
-      position: absolute;
-      width: 100%;
-      height: 600px;
-      top: 1558px;
-      background-color: #3C3C3C;
-    }
-
-      /* Teaser Kreise */
-
-      .Autokategorie{
+        z-index: 2;
         position: absolute;
-        z-index:2;
-        top: 75%;
-        font-family: 'Montserrat', normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 17px;
-        display: flex;
-        align-items: center;
-        color: #FFFFFF;
-      }
-
-      .Teaserkreis:link {
-        z-index:1;
-        position: absolute;
-        width: 14%;
-        height: 45%;
-        left: 3%;
-        top: 220px;
-        border: 1px;
-        border-color: #FFFFFF;
-        border-style: solid;
-        border-radius: 50%;
-      }
-
-        .Teaserkreis:hover {
-          z-index:1;
-          position: absolute;
-          width: 14%;
-          height: 45%;
-          left: 3%;
-          top: 220px;
-          background-color: #d9d9d9;
-          border: 1px;
-          border-color: #FFFFFF;
-          border-style: solid;
-          border-radius: 50%;
+        width: 100%;
+        height: 600px;
+        top: 1558px;
+        background-color: #3C3C3C;
         }
 
-     .Teaserkreis:visited {
-          z-index:1;
-          position: absolute;
-          width: 14%;
-          height: 45%;
-          left: 3%;
-          top: 220px;
-          border: 1px;
-          border-color: #FFFFFF;
-          border-style: solid;
-          border-radius: 50%;
-        }
+                /* Homepage: Teaser der Autokategorien*/
+                /* Teaser Kreise */
 
-        .Teaserkreis:active {
-          z-index:1;
-          position: absolute;
-          width: 14%;
-          height: 45%;
-          left: 3%;
-          top: 220px;
-          border: 1px;
-          border-color: #FFFFFF;
-          border-style: solid;
-          border-radius: 50%;
-        }
+                .Autokategorie{
+                  position: absolute;
+                  z-index:2;
+                  top: 75%;
+                  font-family: 'Montserrat', normal;
+                  font-weight: 800;
+                  font-size: 18px;
+                  line-height: 17px;
+                  display: flex;
+                  align-items: center;
+                  color: #FFFFFF;
+                  }
+
+                .Teaserkreis:link {
+                  z-index:1;
+                  position: absolute;
+                  width: 14%;
+                  height: 45%;
+                  left: 3%;
+                  top: 220px;
+                  border: 1px;
+                  border-color: #FFFFFF;
+                  border-style: solid;
+                  border-radius: 50%;
+                  }
+
+                  .Teaserkreis:hover {
+                    z-index:1;
+                    position: absolute;
+                    width: 14%;
+                    height: 45%;
+                    left: 3%;
+                    top: 220px;
+                    background-color: #d9d9d9;
+                    border: 1px;
+                    border-color: #FFFFFF;
+                    border-style: solid;
+                    border-radius: 50%;
+                  }
+
+               .Teaserkreis:visited {
+                    z-index:1;
+                    position: absolute;
+                    width: 14%;
+                    height: 45%;
+                    left: 3%;
+                    top: 220px;
+                    border: 1px;
+                    border-color: #FFFFFF;
+                    border-style: solid;
+                    border-radius: 50%;
+                  }
+
+                  .Teaserkreis:active {
+                    z-index:1;
+                    position: absolute;
+                    width: 14%;
+                    height: 45%;
+                    left: 3%;
+                    top: 220px;
+                    border: 1px;
+                    border-color: #FFFFFF;
+                    border-style: solid;
+                    border-radius: 50%;
+                  }
 
 
 /*Produktdetailseite*/
