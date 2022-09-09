@@ -1683,6 +1683,16 @@ img{
   max-height: 100%;
 }
 
+/*weiße Pinnadel Standort */
+
+  .Pin_Detail {
+    position: absolute;
+    width: 40px;
+    top: 10%;
+    left: -1%;
+  }
+
+
 /*Der Text in der Detailkarte, rechts*/
 .text_cardescription{
     width: 630px;
