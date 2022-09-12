@@ -2203,10 +2203,64 @@ border-color: rgba(255, 255, 255, 0.57);
 
 
 /* no scrolling */
+/*Logout Seite*/
 
 
 
 
+.Logout_Box {
+      z-index: 2;
+      position: absolute;
+      top: 25%;
+      left: 27%;
+      width: 38%;
+      height: 45%;
+      background: rgba(255, 255, 255, 0.8);
+      box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.5);
+      border: 1px solid black;
+      border-radius: 16px;
+      padding: 40px;
+     }
+
+     .Überschrift_Logout{
+
+     font-family: 'Montserrat';
+       color: #000000;
+       text-decoration: none;
+       font-style: normal;
+       font-weight: 400;
+       font-size: 57px;
+     font-weight: bold;
+
+     }
+
+
+ .Text_1_Logout, .Text_2_Logout{
+
+   font-family: 'Montserrat';
+     color: #000000;
+     text-decoration: none;
+     font-style: normal;
+     font-size: 25px;
+ }
+
+ .Text_3_Logout{
+   font-family: 'Montserrat';
+     color: #000000;
+     text-decoration: none;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 40px;
+   font-weight: bold;
+
+ }
+ .Text_3_Logout_Logo{
+   font-size: 50px;
+     font-family: 'Racing Sans One', cursive;
+     font-weight: normal;
+   color: #10E6CD;
+
+ }
 
 /* Ab hier wird das Logout Pop-Up definiert*/
 
@@ -2229,17 +2283,7 @@ padding-bottom: 4%;
 
 }
 
-.überschrift_Logout .Text_1_Logout .Text_2_Logout .Text_3_Logout {
 
-font-family: 'Montserrat';
-  color: #000000;
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 35px;
-font-weight: bold;
-
-}
 
 .Logout {
   position: relative;
@@ -2256,20 +2300,6 @@ font-weight: bold;
   visibility: visible;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
-}
-
-
-.Logout_button {
-
-  color:#ffffff;
-padding-bottom: 4%;
-  margin-left: 35%;
-  margin-top: 20%;
-  width: 50%;
-  height: 50%;
-  background-color: : #ffffff;
-  box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.5);
-  border-radius: 16px;
 }
 
 /* Buchung erfolgreich Seite */
