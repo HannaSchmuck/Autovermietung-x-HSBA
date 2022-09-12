@@ -176,7 +176,7 @@ a.logo{
         background-color: #bf400d;
     }
 
-    input[type=date]{
+    .Kalenderbox_Produktübersicht{
         width: 121px;
         height: 35px;
         background-color: rgba(217,217,217, 0.26);
@@ -641,7 +641,13 @@ a.logo{
             color: #FFFFFF;
           }
 
-          .Kalenderbox {
+          .Kalenderbox_Homepage {
+            width: 121px;
+            height: 35px;
+            background-color: rgba(217,217,217, 0.26);
+            border: 1px solid black;
+            border-radius: 3px;
+            color: white;
             font-family: 'Montserrat', normal;
             font-weight: 400;
             font-size: 12px;
@@ -649,6 +655,8 @@ a.logo{
             display: flex;
             align-items: center;
             color: #FFFFFF;
+            top: 67%;
+            width: 165px;
           }
 
         /* Auf geht's button */
